@@ -9,7 +9,7 @@ public class lazerEmmitters : MonoBehaviour
 
     private void Start()
     {
-        InvokeRepeating("ShootLaser", 0.4f, 0.3f);
+        InvokeRepeating("ShootLaser", 0.4f, TimeDelay);
     }
     void ShootLaser()
     {

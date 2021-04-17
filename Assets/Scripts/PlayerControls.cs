@@ -9,7 +9,6 @@ public class PlayerControls : MonoBehaviour
     {
         Vector2 direction = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
 
-        transform.Translate(direction*Time.deltaTime* speed);
-        
+        transform.Translate(direction * Time.deltaTime * speed);
     }
 }

@@ -6,14 +6,14 @@ public class shootAtPlayer : MonoBehaviour
 {
     private Transform Player;
     [SerializeField] private float speed = 30;
+    [SerializeField] private Vector3 addtionalDegrees = new Vector3(0, 0, 0);
     void Awake()
     {
         Player = GameObject.FindGameObjectWithTag("Player").transform;
-        transform.LookAt(Player.position);
+        transform.LookAt(Player.position+ addtionalDegrees);
         StartCoroutine(SelfDestruct());
     }
 
-    // Update is called once per frame
     void Update()
     {
         transform.Translate(Vector3.forward * Time.deltaTime * speed);
