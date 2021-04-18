@@ -5,11 +5,11 @@ using UnityEngine;
 public class CameraMovement : MonoBehaviour
 {
     [SerializeField] private GameObject target;
-
+    [SerializeField] private float speed = 20f;
     // Update is called once per frame
     void Update()
     {
-        transform.RotateAround(target.transform.position, Vector3.up, 20 * Time.deltaTime);
+        transform.RotateAround(target.transform.position, Vector3.up, speed * Time.deltaTime);
         transform.LookAt(target.transform.position);
     }
 }
