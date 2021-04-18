@@ -9,7 +9,13 @@ public class PlayOneShoot : MonoBehaviour
     [SerializeField] private float pauseTime = 1f;
     private bool coolDowned = true;
     private bool coolDownStarted = false;
+    private SpriteRenderer spriteRenderer;
+    [SerializeField] private Color32 color;
 
+    private void Start()
+    {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+    }
     private void Update()
     {
         if (Input.GetKey(shoot) && coolDowned)
@@ -26,9 +32,12 @@ public class PlayOneShoot : MonoBehaviour
 
     IEnumerator CoolDown()
     {
+            spriteRenderer.color = color; 
             coolDownStarted = true;
             yield return new WaitForSeconds(pauseTime);
             coolDowned = true;
             coolDownStarted = false;
+            spriteRenderer.color = new Color32(255,255,255,255);
+
     }
 }

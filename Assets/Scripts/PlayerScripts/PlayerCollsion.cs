@@ -17,7 +17,7 @@ public class PlayerCollsion : MonoBehaviour
 
     void death()
     {
-        SceneManager.LoadScene("OtherSceneName", LoadSceneMode.Additive);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         Destroy(gameObject);
     }
 
