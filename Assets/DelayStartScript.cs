@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class DelayStartScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private float timeDelay = 1f;
+    [SerializeField] private GameObject hiddenObject;
+
+    void Awake()
     {
-        
+        StartCoroutine(Appear());
     }
 
-    // Update is called once per frame
-    void Update()
+    IEnumerator Appear()
     {
-        
+        hiddenObject.SetActive(false);
+        yield return new WaitForSeconds(timeDelay);
+        hiddenObject.SetActive(true);
     }
 }
