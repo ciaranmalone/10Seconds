@@ -11,6 +11,10 @@ public class RunEnemySpawner : MonoBehaviour
 
     void Start()
     {
+        if (parent == null)
+        {
+            parent = GameObject.FindGameObjectWithTag("MainCamera").transform;
+        }
         InvokeRepeating("SpawnEnemy", 0.4f, spawnTime);
     }
 

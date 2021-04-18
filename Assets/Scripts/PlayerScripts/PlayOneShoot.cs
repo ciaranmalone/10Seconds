@@ -11,24 +11,27 @@ public class PlayOneShoot : MonoBehaviour
     private bool coolDownStarted = false;
     private SpriteRenderer spriteRenderer;
     [SerializeField] private Color32 color;
+    private Transform cameraTransform;
 
     private void Start()
     {
+        cameraTransform = GameObject.FindGameObjectWithTag("MainCamera").transform;
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
     private void Update()
     {
         if (Input.GetKey(shoot) && coolDowned)
         {
-            Instantiate(bullets, transform.position, transform.rotation);
+            GameObject bullet = Instantiate(bullets, transform.position, transform.rotation);
+            bullet.transform.parent = cameraTransform;
             coolDowned = false;
         }
 
         if(!coolDowned && !coolDownStarted)
         {
             StartCoroutine(CoolDown());
+    };
         }
-    }
 
     IEnumerator CoolDown()
     {

@@ -4,17 +4,36 @@ using UnityEngine;
 
 public class EnemyCollider : MonoBehaviour
 {
+    [SerializeField] int health = 1;
+    [SerializeField] private SpriteRenderer spriteRenderer;
+    [SerializeField] private Color32 color;
+    [SerializeField] private bool deleteBullet = false;
+
+
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("PlayerBullet"))
         {
+            if (deleteBullet) Destroy(collision.gameObject);
 
-            death();
+            StartCoroutine(flash());
+            health--;
+            if (health == 0)
+            {
+                death();
+            }
         }
     }
 
     void death()
     {
         Destroy(gameObject);
+    }
+
+    IEnumerator flash()
+    {
+        spriteRenderer.color = color;
+        yield return new WaitForSeconds(0.1f);
+        spriteRenderer.color = new Color32(255, 255, 255, 255);
     }
 }

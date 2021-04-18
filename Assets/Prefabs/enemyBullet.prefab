@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 2215643752794557934}
   - component: {fileID: 2215643752794557933}
   - component: {fileID: 2215643752794557935}
-  m_Layer: 6
+  - component: {fileID: 1185954884074561321}
+  m_Layer: 0
   m_Name: Bullet
-  m_TagString: PlayerBullet
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73,7 +74,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: a88054adf49ef9840b92862aeb22263a, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -95,7 +96,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4a654b07b29c99468823cf050543514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spin: {x: 0, y: 0, z: 5}
+  spin: {x: 0, y: 0, z: 1}
+--- !u!65 &1185954884074561321
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2215643752794557932}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2, y: 0.2, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2215643753817143775
 GameObject:
   m_ObjectHideFlags: 0
@@ -108,9 +122,9 @@ GameObject:
   - component: {fileID: 2215643753817143776}
   - component: {fileID: 8644711277192237466}
   - component: {fileID: -1983212991474432419}
-  m_Layer: 6
-  m_Name: playerBullet
-  m_TagString: PlayerBullet
+  m_Layer: 0
+  m_Name: enemyBullet
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -124,7 +138,7 @@ Transform:
   m_GameObject: {fileID: 2215643753817143775}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children:
   - {fileID: 2215643752794557934}
   m_Father: {fileID: 0}
@@ -142,7 +156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94e7e3775f7b641459fbe9455cd366dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 100
+  speed: 40
 --- !u!65 &8644711277192237466
 BoxCollider:
   m_ObjectHideFlags: 0
