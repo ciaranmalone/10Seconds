@@ -11,6 +11,10 @@ public class PlayerCollsion : MonoBehaviour
         {
             death();
         }
+        if (collision.gameObject.CompareTag("Finish"))
+        {
+            Debug.Log("OH CANADA");
+        }
     }
 
     void death()
