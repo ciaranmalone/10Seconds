@@ -8,7 +8,7 @@ public class ClampMaxMovement : MonoBehaviour
     void Update()
     {
         Vector3 pos = transform.localPosition;
-        Debug.Log(pos);
+
         pos.x = Mathf.Clamp(pos.x, maxLeft, maxRight);
         pos.y = Mathf.Clamp(pos.y, maxDown, maxUp);
         transform.localPosition = pos;

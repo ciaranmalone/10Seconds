@@ -16,7 +16,6 @@ public class PlayerCollsion : MonoBehaviour
             Debug.Log("OH CANADA");
         }
     }
-
     void death()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);

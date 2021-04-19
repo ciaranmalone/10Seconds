@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3180537861518689568}
   - component: {fileID: 3180537861518689569}
+  - component: {fileID: 1206545185197485687}
   m_Layer: 0
   m_Name: EnemySpinner
   m_TagString: Untagged
@@ -24,7 +25,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3180537861518689570}
-  m_LocalRotation: {x: 0.00000046193594, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0.0000004893567, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 30}
   m_LocalScale: {x: 1, y: -1, z: 1}
   m_Children:
@@ -46,6 +47,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   moveDirection: {x: 0, y: 4, z: 0}
+--- !u!114 &1206545185197485687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3180537861518689570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e329e9ad00f943439029754db57b56e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destructTime: 3
 --- !u!1001 &3180537860117977417
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53,6 +67,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3180537861518689568}
     m_Modifications:
+    - target: {fileID: 6449525470119849012, guid: 7ff75ba0496cde94f82b2b82b062ef6a, type: 3}
+      propertyPath: m_Constraints
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 7535010426741073484, guid: 7ff75ba0496cde94f82b2b82b062ef6a, type: 3}
       propertyPath: explosion
       value: 
@@ -109,7 +127,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemySpinner
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8761316858731664278, guid: 7ff75ba0496cde94f82b2b82b062ef6a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7ff75ba0496cde94f82b2b82b062ef6a, type: 3}
 --- !u!4 &6176116338377850095 stripped
 Transform:
