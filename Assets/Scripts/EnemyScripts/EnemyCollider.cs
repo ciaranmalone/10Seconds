@@ -10,6 +10,14 @@ public class EnemyCollider : MonoBehaviour
     [SerializeField] private bool deleteBullet = false;
     [SerializeField] private GameObject explosion;
 
+
+    private void Awake()
+    {
+        if(spriteRenderer == null)
+        {
+            spriteRenderer = GetComponent<SpriteRenderer>();
+        }
+    }
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("PlayerBullet"))

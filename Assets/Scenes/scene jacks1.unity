@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.4970185, g: 0.551262, b: 0.6886792, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 398cee55621006d4ca28eb182f3b4d7b, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 69ff246146fdeae4888b22ea43b7292d, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.22054964, g: 0.23165584, b: 0.32247242, a: 1}
+  m_IndirectSpecularColor: {r: 0.36612663, g: 0.36138904, b: 0.47979045, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -250,6 +250,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 1
+  spriteRenderer: {fileID: 0}
+  color:
+    serializedVersion: 2
+    rgba: 0
+  deleteBullet: 0
 --- !u!95 &62280904
 Animator:
   serializedVersion: 3
@@ -503,6 +509,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 1
+  spriteRenderer: {fileID: 0}
+  color:
+    serializedVersion: 2
+    rgba: 0
+  deleteBullet: 0
 --- !u!95 &257946160
 Animator:
   serializedVersion: 3
@@ -751,6 +763,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 1
+  spriteRenderer: {fileID: 0}
+  color:
+    serializedVersion: 2
+    rgba: 0
+  deleteBullet: 0
 --- !u!95 &369744658
 Animator:
   serializedVersion: 3
@@ -897,6 +915,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 1
+  spriteRenderer: {fileID: 0}
+  color:
+    serializedVersion: 2
+    rgba: 0
+  deleteBullet: 0
 --- !u!95 &435561171
 Animator:
   serializedVersion: 3
@@ -1115,6 +1139,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 1
+  spriteRenderer: {fileID: 0}
+  color:
+    serializedVersion: 2
+    rgba: 0
+  deleteBullet: 0
 --- !u!95 &479649189
 Animator:
   serializedVersion: 3
@@ -1261,6 +1291,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 1
+  spriteRenderer: {fileID: 0}
+  color:
+    serializedVersion: 2
+    rgba: 0
+  deleteBullet: 0
 --- !u!95 &481513312
 Animator:
   serializedVersion: 3
@@ -1310,7 +1346,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeText: {fileID: 1838082115}
+  nextScene: 
   PlayerInstructions: {fileID: 1399910195}
+  LoadNextScene: 0
 --- !u!4 &534683910
 Transform:
   m_ObjectHideFlags: 0
@@ -1550,6 +1588,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 1
+  spriteRenderer: {fileID: 0}
+  color:
+    serializedVersion: 2
+    rgba: 0
+  deleteBullet: 0
 --- !u!95 &717038646
 Animator:
   serializedVersion: 3
@@ -1696,6 +1740,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 1
+  spriteRenderer: {fileID: 0}
+  color:
+    serializedVersion: 2
+    rgba: 0
+  deleteBullet: 0
 --- !u!95 &794369361
 Animator:
   serializedVersion: 3
@@ -1842,6 +1892,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 1
+  spriteRenderer: {fileID: 0}
+  color:
+    serializedVersion: 2
+    rgba: 0
+  deleteBullet: 0
 --- !u!95 &803372792
 Animator:
   serializedVersion: 3
@@ -2298,6 +2354,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 1
+  spriteRenderer: {fileID: 0}
+  color:
+    serializedVersion: 2
+    rgba: 0
+  deleteBullet: 0
 --- !u!95 &970916250
 Animator:
   serializedVersion: 3
@@ -2606,6 +2668,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 1
+  spriteRenderer: {fileID: 0}
+  color:
+    serializedVersion: 2
+    rgba: 0
+  deleteBullet: 0
 --- !u!95 &1055048017
 Animator:
   serializedVersion: 3
@@ -2752,6 +2820,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 1
+  spriteRenderer: {fileID: 0}
+  color:
+    serializedVersion: 2
+    rgba: 0
+  deleteBullet: 0
 --- !u!95 &1078967170
 Animator:
   serializedVersion: 3
@@ -2898,6 +2972,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 1
+  spriteRenderer: {fileID: 0}
+  color:
+    serializedVersion: 2
+    rgba: 0
+  deleteBullet: 0
 --- !u!95 &1107591898
 Animator:
   serializedVersion: 3
@@ -3044,6 +3124,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 1
+  spriteRenderer: {fileID: 0}
+  color:
+    serializedVersion: 2
+    rgba: 0
+  deleteBullet: 0
 --- !u!95 &1263909986
 Animator:
   serializedVersion: 3
@@ -3190,6 +3276,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 1
+  spriteRenderer: {fileID: 0}
+  color:
+    serializedVersion: 2
+    rgba: 0
+  deleteBullet: 0
 --- !u!95 &1327928243
 Animator:
   serializedVersion: 3
@@ -3644,6 +3736,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 1
+  spriteRenderer: {fileID: 0}
+  color:
+    serializedVersion: 2
+    rgba: 0
+  deleteBullet: 0
 --- !u!95 &1461734578
 Animator:
   serializedVersion: 3
@@ -92422,7 +92520,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e0157902cbba8343b7a87c20ce4df1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obama: {fileID: 2100000, guid: 398cee55621006d4ca28eb182f3b4d7b, type: 2}
+  obama: {fileID: 2100000, guid: 69ff246146fdeae4888b22ea43b7292d, type: 2}
 --- !u!1 &1838082112
 GameObject:
   m_ObjectHideFlags: 0
@@ -92684,6 +92782,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 1
+  spriteRenderer: {fileID: 0}
+  color:
+    serializedVersion: 2
+    rgba: 0
+  deleteBullet: 0
 --- !u!95 &1915874009
 Animator:
   serializedVersion: 3
@@ -92830,6 +92934,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 1
+  spriteRenderer: {fileID: 0}
+  color:
+    serializedVersion: 2
+    rgba: 0
+  deleteBullet: 0
 --- !u!95 &1967726545
 Animator:
   serializedVersion: 3
@@ -93050,6 +93160,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 1
+  spriteRenderer: {fileID: 0}
+  color:
+    serializedVersion: 2
+    rgba: 0
+  deleteBullet: 0
 --- !u!95 &2033073337
 Animator:
   serializedVersion: 3
@@ -93196,6 +93312,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 1
+  spriteRenderer: {fileID: 0}
+  color:
+    serializedVersion: 2
+    rgba: 0
+  deleteBullet: 0
 --- !u!95 &2090028873
 Animator:
   serializedVersion: 3
