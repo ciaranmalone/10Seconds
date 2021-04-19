@@ -8,7 +8,7 @@ public class EnemyCollider : MonoBehaviour
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private Color32 color;
     [SerializeField] private bool deleteBullet = false;
-
+    [SerializeField] private GameObject explosion;
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -27,6 +27,7 @@ public class EnemyCollider : MonoBehaviour
 
     void death()
     {
+        Instantiate(explosion, transform.position, transform.rotation);
         Destroy(gameObject);
     }
 
