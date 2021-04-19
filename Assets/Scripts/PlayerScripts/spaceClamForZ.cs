@@ -2,17 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ClampMaxMovement : MonoBehaviour
+public class spaceClamForZ : MonoBehaviour
 {
     [SerializeField] private float maxLeft, maxRight, maxDown, maxUp;
     void Update()
     {
         Vector3 pos = transform.localPosition;
-        
-         pos.x = Mathf.Clamp(pos.x, maxLeft, maxRight);
-      
+
+        pos.z = Mathf.Clamp(pos.z, maxLeft, maxRight);
+
         pos.y = Mathf.Clamp(pos.y, maxDown, maxUp);
         transform.position = pos;
     }
 }
-

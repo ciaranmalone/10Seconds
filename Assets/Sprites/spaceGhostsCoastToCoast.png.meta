@@ -1,0 +1,444 @@
+fileFormatVersion: 2
+guid: c567f0d94585b954cb2595054885a149
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -477842016907260647
+    second: spaceGhostsCoastToCoast_0
+  - first:
+      213: 4670561931759937253
+    second: spaceGhostsCoastToCoast_1
+  - first:
+      213: 3271723042348575837
+    second: spaceGhostsCoastToCoast_2
+  - first:
+      213: -5056733000653836530
+    second: spaceGhostsCoastToCoast_3
+  - first:
+      213: -757008978861012511
+    second: spaceGhostsCoastToCoast_4
+  - first:
+      213: 3446357289075665769
+    second: spaceGhostsCoastToCoast_5
+  - first:
+      213: -8444597521075901896
+    second: spaceGhostsCoastToCoast_6
+  - first:
+      213: 6600664696074450092
+    second: spaceGhostsCoastToCoast_7
+  - first:
+      213: 8910563502209850346
+    second: spaceGhostsCoastToCoast_8
+  - first:
+      213: 7635635110681774246
+    second: spaceGhostsCoastToCoast_9
+  - first:
+      213: -4646612904699863158
+    second: spaceGhostsCoastToCoast_10
+  - first:
+      213: -5865649598060361068
+    second: spaceGhostsCoastToCoast_11
+  - first:
+      213: 6757936305196550515
+    second: spaceGhostsCoastToCoast_12
+  - first:
+      213: 5987260951562993075
+    second: spaceGhostsCoastToCoast_13
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spaceGhostsCoastToCoast_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 149
+        width: 297
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d8c73a73d5e59f0800000000000000
+      internalID: -477842016907260647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceGhostsCoastToCoast_1
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 149
+        width: 295
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6630cc45b21d040800000000000000
+      internalID: 4670561931759937253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceGhostsCoastToCoast_2
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 149
+        width: 295
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ca5aec5ce776d20800000000000000
+      internalID: 3271723042348575837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceGhostsCoastToCoast_3
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 149
+        width: 291
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f680ca020e2d9b0800000000000000
+      internalID: -5056733000653836530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceGhostsCoastToCoast_4
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 149
+        width: 292
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9453338509e75f0800000000000000
+      internalID: -757008978861012511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceGhostsCoastToCoast_5
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 149
+        width: 293
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96bee60e1bbe3df20800000000000000
+      internalID: 3446357289075665769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceGhostsCoastToCoast_6
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 149
+        width: 294
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a6025cb43ceca80800000000000000
+      internalID: -8444597521075901896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceGhostsCoastToCoast_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 297
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4bafab1954a9b50800000000000000
+      internalID: 6600664696074450092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceGhostsCoastToCoast_8
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 294
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb57c98b4ea8ab70800000000000000
+      internalID: 8910563502209850346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceGhostsCoastToCoast_9
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 0
+        width: 294
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a800b68da937f960800000000000000
+      internalID: 7635635110681774246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceGhostsCoastToCoast_10
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 0
+        width: 295
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f5e969e2ae38fb0800000000000000
+      internalID: -4646612904699863158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceGhostsCoastToCoast_11
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 0
+        width: 293
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a03b2a4c6099ea0800000000000000
+      internalID: -5865649598060361068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceGhostsCoastToCoast_12
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 0
+        width: 294
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379c4f5b34309cd50800000000000000
+      internalID: 6757936305196550515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spaceGhostsCoastToCoast_13
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 0
+        width: 297
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bdba731d16071350800000000000000
+      internalID: 5987260951562993075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
