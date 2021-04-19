@@ -2,16 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class timerController : MonoBehaviour
 {
 
     private float timeRemaining = 10;
     private bool countDown = false;
+
     [SerializeField] private TextMeshProUGUI timeText;
+    [SerializeField] private string nextScene;
     [SerializeField] private GameObject PlayerInstructions;
-
-
+    [SerializeField] private bool LoadNextScene = false;
+     
     private void Start()
     {
         PlayerInstructions.SetActive(true);
@@ -37,7 +40,13 @@ public class timerController : MonoBehaviour
 
     void TimeUp()
     {
-        Debug.Log("time up");
+        if (LoadNextScene)
+        {
+            SceneManager.LoadScene(nextScene);
+        } else
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
 
     void DisplayTime(float timeToDisplay)
