@@ -11,15 +11,18 @@ public class EnemyCollider : MonoBehaviour
     [SerializeField] private GameObject explosion;
 
 
-    private void Awake()
+    private void Start()
     {
-        if(spriteRenderer == null)
+
+        if (spriteRenderer == null)
         {
+            Debug.Log("ssdasd");
             spriteRenderer = GetComponent<SpriteRenderer>();
         }
     }
     private void OnCollisionEnter(Collision collision)
     {
+        Debug.Log("been hits");
         if (collision.gameObject.CompareTag("PlayerBullet"))
         {
             if (deleteBullet) Destroy(collision.gameObject);

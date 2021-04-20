@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.34914845, g: 0.27089918, b: 0.3108203, a: 1}
+  m_IndirectSpecularColor: {r: 0.4233728, g: 0.33022416, b: 0.37589115, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -138,6 +138,7 @@ GameObject:
   - component: {fileID: 30643430}
   - component: {fileID: 30643429}
   - component: {fileID: 30643435}
+  - component: {fileID: 30643436}
   m_Layer: 0
   m_Name: spaceGoast (31)
   m_TagString: Enemy
@@ -262,12 +263,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 30643428}
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 6.6, y: -43.8, z: 129.18}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 376.36963, y: 31.138721, z: -765.47504}
   m_LocalScale: {x: 7, y: 7, z: 6}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_Father: {fileID: 1426451749}
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!114 &30643435
 MonoBehaviour:
@@ -281,13 +282,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 25
   spriteRenderer: {fileID: 0}
   color:
     serializedVersion: 2
     rgba: 4278230527
-  deleteBullet: 0
+  deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+--- !u!54 &30643436
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30643428}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &65814166
 GameObject:
   m_ObjectHideFlags: 0
@@ -303,6 +320,7 @@ GameObject:
   - component: {fileID: 65814168}
   - component: {fileID: 65814167}
   - component: {fileID: 65814173}
+  - component: {fileID: 65814174}
   m_Layer: 0
   m_Name: spaceGoast (16)
   m_TagString: Enemy
@@ -427,12 +445,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 65814166}
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 6.6, y: 265.5, z: -70.3}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 376.36963, y: 340.43872, z: -964.955}
   m_LocalScale: {x: 7, y: 7, z: 6}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_Father: {fileID: 1426451749}
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!114 &65814173
 MonoBehaviour:
@@ -446,13 +464,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 25
   spriteRenderer: {fileID: 0}
   color:
     serializedVersion: 2
     rgba: 4278230527
-  deleteBullet: 0
+  deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+--- !u!54 &65814174
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65814166}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &71318764
 GameObject:
   m_ObjectHideFlags: 0
@@ -468,6 +502,7 @@ GameObject:
   - component: {fileID: 71318766}
   - component: {fileID: 71318765}
   - component: {fileID: 71318771}
+  - component: {fileID: 71318772}
   m_Layer: 0
   m_Name: spaceGoast (32)
   m_TagString: Enemy
@@ -592,12 +627,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 71318764}
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 6.6, y: -39.8, z: 105.73}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 376.36963, y: 35.13872, z: -788.92505}
   m_LocalScale: {x: 7, y: 7, z: 6}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 35
+  m_Father: {fileID: 1426451749}
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!114 &71318771
 MonoBehaviour:
@@ -611,13 +646,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 25
   spriteRenderer: {fileID: 0}
   color:
     serializedVersion: 2
     rgba: 4278230527
-  deleteBullet: 0
+  deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+--- !u!54 &71318772
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 71318764}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &145366090
 GameObject:
   m_ObjectHideFlags: 0
@@ -633,6 +684,7 @@ GameObject:
   - component: {fileID: 145366092}
   - component: {fileID: 145366091}
   - component: {fileID: 145366097}
+  - component: {fileID: 145366098}
   m_Layer: 0
   m_Name: spaceGoast (21)
   m_TagString: Enemy
@@ -757,12 +809,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 145366090}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 6.6, y: 7.11, z: -241.21}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 376.36963, y: 82.04872, z: -1135.865}
   m_LocalScale: {x: 7, y: 7, z: 6}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_Father: {fileID: 1426451749}
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!114 &145366097
 MonoBehaviour:
@@ -776,13 +828,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 25
   spriteRenderer: {fileID: 0}
   color:
     serializedVersion: 2
     rgba: 4278230527
-  deleteBullet: 0
+  deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+--- !u!54 &145366098
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145366090}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &155850232
 GameObject:
   m_ObjectHideFlags: 0
@@ -798,6 +866,7 @@ GameObject:
   - component: {fileID: 155850234}
   - component: {fileID: 155850233}
   - component: {fileID: 155850239}
+  - component: {fileID: 155850240}
   m_Layer: 0
   m_Name: spaceGoast (14)
   m_TagString: Enemy
@@ -922,12 +991,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 155850232}
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 6.6, y: 0.63, z: -49.48}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 376.36963, y: 75.56872, z: -944.135}
   m_LocalScale: {x: 7, y: 7, z: 6}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_Father: {fileID: 1426451749}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!114 &155850239
 MonoBehaviour:
@@ -941,13 +1010,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 25
   spriteRenderer: {fileID: 0}
   color:
     serializedVersion: 2
     rgba: 4278230527
-  deleteBullet: 0
+  deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+--- !u!54 &155850240
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155850232}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &212923920
 GameObject:
   m_ObjectHideFlags: 0
@@ -1070,6 +1155,7 @@ GameObject:
   - component: {fileID: 273597687}
   - component: {fileID: 273597686}
   - component: {fileID: 273597692}
+  - component: {fileID: 273597693}
   m_Layer: 0
   m_Name: spaceGoast (10)
   m_TagString: Enemy
@@ -1194,12 +1280,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 273597685}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 6.6, y: 10.6, z: -20.7}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 376.36963, y: 85.53872, z: -915.35504}
   m_LocalScale: {x: 7, y: 7, z: 6}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_Father: {fileID: 1426451749}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!114 &273597692
 MonoBehaviour:
@@ -1213,13 +1299,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 25
   spriteRenderer: {fileID: 0}
   color:
     serializedVersion: 2
     rgba: 4278230527
-  deleteBullet: 0
+  deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+--- !u!54 &273597693
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 273597685}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &292442270
 GameObject:
   m_ObjectHideFlags: 0
@@ -1235,6 +1337,7 @@ GameObject:
   - component: {fileID: 292442272}
   - component: {fileID: 292442271}
   - component: {fileID: 292442277}
+  - component: {fileID: 292442278}
   m_Layer: 0
   m_Name: spaceGoast (3)
   m_TagString: Enemy
@@ -1359,12 +1462,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 292442270}
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 6.6, y: -3.4, z: 70.8}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 376.36963, y: 71.53872, z: -823.85504}
   m_LocalScale: {x: 7, y: 7, z: 6}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 1426451749}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!114 &292442277
 MonoBehaviour:
@@ -1378,13 +1481,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 25
   spriteRenderer: {fileID: 0}
   color:
     serializedVersion: 2
     rgba: 4278230527
-  deleteBullet: 0
+  deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+--- !u!54 &292442278
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292442270}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &335469302
 GameObject:
   m_ObjectHideFlags: 0
@@ -1502,6 +1621,7 @@ GameObject:
   - component: {fileID: 403166801}
   - component: {fileID: 403166800}
   - component: {fileID: 403166806}
+  - component: {fileID: 403166807}
   m_Layer: 0
   m_Name: spaceGoast (18)
   m_TagString: Enemy
@@ -1626,12 +1746,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 403166799}
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 6.6, y: 7.11, z: 368.68}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 376.36963, y: 82.04872, z: -525.97504}
   m_LocalScale: {x: 7, y: 7, z: 6}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_Father: {fileID: 1426451749}
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!114 &403166806
 MonoBehaviour:
@@ -1645,13 +1765,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 25
   spriteRenderer: {fileID: 0}
   color:
     serializedVersion: 2
     rgba: 4278230527
-  deleteBullet: 0
+  deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+--- !u!54 &403166807
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403166799}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &427013306
 GameObject:
   m_ObjectHideFlags: 0
@@ -1667,6 +1803,7 @@ GameObject:
   - component: {fileID: 427013308}
   - component: {fileID: 427013307}
   - component: {fileID: 427013313}
+  - component: {fileID: 427013314}
   m_Layer: 0
   m_Name: spaceGoast (24)
   m_TagString: Enemy
@@ -1791,12 +1928,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 427013306}
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 6.6, y: -45.3, z: 156.96}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 376.36963, y: 29.638721, z: -737.695}
   m_LocalScale: {x: 7, y: 7, z: 6}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_Father: {fileID: 1426451749}
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!114 &427013313
 MonoBehaviour:
@@ -1810,13 +1947,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 25
   spriteRenderer: {fileID: 0}
   color:
     serializedVersion: 2
     rgba: 4278230527
-  deleteBullet: 0
+  deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+--- !u!54 &427013314
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 427013306}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &460423313
 GameObject:
   m_ObjectHideFlags: 0
@@ -1921,7 +2074,7 @@ MonoBehaviour:
   timeText: {fileID: 1838082115}
   nextScene: 
   PlayerInstructions: {fileID: 1399910195}
-  LoadNextScene: 0
+  LoadNextScene: 1
 --- !u!4 &534683910
 Transform:
   m_ObjectHideFlags: 0
@@ -1951,6 +2104,7 @@ GameObject:
   - component: {fileID: 621236584}
   - component: {fileID: 621236583}
   - component: {fileID: 621236589}
+  - component: {fileID: 621236590}
   m_Layer: 0
   m_Name: spaceGoast (9)
   m_TagString: Enemy
@@ -2075,12 +2229,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 621236582}
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 6.6, y: 16.76, z: 84.26}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 376.36963, y: 91.69872, z: -810.395}
   m_LocalScale: {x: 7, y: 7, z: 6}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_Father: {fileID: 1426451749}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!114 &621236589
 MonoBehaviour:
@@ -2094,13 +2248,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 25
   spriteRenderer: {fileID: 0}
   color:
     serializedVersion: 2
     rgba: 4278230527
-  deleteBullet: 0
+  deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+--- !u!54 &621236590
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 621236582}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &649196550
 GameObject:
   m_ObjectHideFlags: 0
@@ -2116,6 +2286,7 @@ GameObject:
   - component: {fileID: 649196552}
   - component: {fileID: 649196551}
   - component: {fileID: 649196557}
+  - component: {fileID: 649196558}
   m_Layer: 0
   m_Name: spaceGoast (5)
   m_TagString: Enemy
@@ -2240,12 +2411,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 649196550}
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 6.6, y: -32.4, z: 89.81}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 376.36963, y: 42.53872, z: -804.84503}
   m_LocalScale: {x: 7, y: 7, z: 6}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_Father: {fileID: 1426451749}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!114 &649196557
 MonoBehaviour:
@@ -2259,13 +2430,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 25
   spriteRenderer: {fileID: 0}
   color:
     serializedVersion: 2
     rgba: 4278230527
-  deleteBullet: 0
+  deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+--- !u!54 &649196558
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 649196550}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &664941967
 GameObject:
   m_ObjectHideFlags: 0
@@ -2281,6 +2468,7 @@ GameObject:
   - component: {fileID: 664941969}
   - component: {fileID: 664941968}
   - component: {fileID: 664941974}
+  - component: {fileID: 664941975}
   m_Layer: 0
   m_Name: spaceGoast (17)
   m_TagString: Enemy
@@ -2405,12 +2593,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 664941967}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 6.6, y: -325.2, z: -35.4}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 376.36963, y: -250.26129, z: -930.05505}
   m_LocalScale: {x: 7, y: 7, z: 6}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_Father: {fileID: 1426451749}
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!114 &664941974
 MonoBehaviour:
@@ -2424,13 +2612,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 25
   spriteRenderer: {fileID: 0}
   color:
     serializedVersion: 2
     rgba: 4278230527
-  deleteBullet: 0
+  deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+--- !u!54 &664941975
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 664941967}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &685902064
 GameObject:
   m_ObjectHideFlags: 0
@@ -2544,6 +2748,7 @@ GameObject:
   - component: {fileID: 691411505}
   - component: {fileID: 691411506}
   - component: {fileID: 691411507}
+  - component: {fileID: 691411508}
   m_Layer: 0
   m_Name: spaceGoast
   m_TagString: Enemy
@@ -2628,12 +2833,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 691411500}
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 6.6, y: -10.6, z: 37.2}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 376.36963, y: 64.33872, z: -857.455}
   m_LocalScale: {x: 7, y: 7, z: 6}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 1426451749}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!65 &691411504
 BoxCollider:
@@ -2668,7 +2873,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 691411500}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65137e4778f736343995144ddeef5fe2, type: 3}
   m_Name: 
@@ -2687,13 +2892,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
-  spriteRenderer: {fileID: 0}
+  health: 25
+  spriteRenderer: {fileID: 691411501}
   color:
     serializedVersion: 2
     rgba: 4278230527
-  deleteBullet: 0
+  deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+--- !u!54 &691411508
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691411500}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &710817982
 GameObject:
   m_ObjectHideFlags: 0
@@ -2709,6 +2930,7 @@ GameObject:
   - component: {fileID: 710817984}
   - component: {fileID: 710817983}
   - component: {fileID: 710817989}
+  - component: {fileID: 710817990}
   m_Layer: 0
   m_Name: spaceGoast (15)
   m_TagString: Enemy
@@ -2833,12 +3055,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 710817982}
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 6.6, y: 0.63, z: 519.1}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 376.36963, y: 75.56872, z: -375.55505}
   m_LocalScale: {x: 7, y: 7, z: 6}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_Father: {fileID: 1426451749}
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!114 &710817989
 MonoBehaviour:
@@ -2852,13 +3074,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 25
   spriteRenderer: {fileID: 0}
   color:
     serializedVersion: 2
     rgba: 4278230527
-  deleteBullet: 0
+  deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+--- !u!54 &710817990
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710817982}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &737054618
 GameObject:
   m_ObjectHideFlags: 0
@@ -2874,6 +3112,7 @@ GameObject:
   - component: {fileID: 737054620}
   - component: {fileID: 737054619}
   - component: {fileID: 737054625}
+  - component: {fileID: 737054626}
   m_Layer: 0
   m_Name: spaceGoast (6)
   m_TagString: Enemy
@@ -2998,12 +3237,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 737054618}
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 6.6, y: -29.1, z: 74.14}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 376.36963, y: 45.838722, z: -820.515}
   m_LocalScale: {x: 7, y: 7, z: 6}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_Father: {fileID: 1426451749}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!114 &737054625
 MonoBehaviour:
@@ -3017,13 +3256,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 25
   spriteRenderer: {fileID: 0}
   color:
     serializedVersion: 2
     rgba: 4278230527
-  deleteBullet: 0
+  deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+--- !u!54 &737054626
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 737054618}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &916419423
 GameObject:
   m_ObjectHideFlags: 0
@@ -3251,6 +3506,7 @@ GameObject:
   - component: {fileID: 1037406329}
   - component: {fileID: 1037406328}
   - component: {fileID: 1037406334}
+  - component: {fileID: 1037406335}
   m_Layer: 0
   m_Name: spaceGoast (22)
   m_TagString: Enemy
@@ -3375,12 +3631,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1037406327}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 6.6, y: -246.6, z: -35.4}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 376.36963, y: -171.66129, z: -930.05505}
   m_LocalScale: {x: 7, y: 7, z: 6}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_Father: {fileID: 1426451749}
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!114 &1037406334
 MonoBehaviour:
@@ -3394,13 +3650,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 25
   spriteRenderer: {fileID: 0}
   color:
     serializedVersion: 2
     rgba: 4278230527
-  deleteBullet: 0
+  deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+--- !u!54 &1037406335
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037406327}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &1051666139
 GameObject:
   m_ObjectHideFlags: 0
@@ -3416,6 +3688,7 @@ GameObject:
   - component: {fileID: 1051666141}
   - component: {fileID: 1051666140}
   - component: {fileID: 1051666146}
+  - component: {fileID: 1051666147}
   m_Layer: 0
   m_Name: spaceGoast (2)
   m_TagString: Enemy
@@ -3540,12 +3813,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1051666139}
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 6.6, y: 0.63, z: 57.89}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 376.36963, y: 75.56872, z: -836.765}
   m_LocalScale: {x: 7, y: 7, z: 6}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 1426451749}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!114 &1051666146
 MonoBehaviour:
@@ -3559,13 +3832,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 25
   spriteRenderer: {fileID: 0}
   color:
     serializedVersion: 2
     rgba: 4278230527
-  deleteBullet: 0
+  deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+--- !u!54 &1051666147
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051666139}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &1085036647
 GameObject:
   m_ObjectHideFlags: 0
@@ -3581,6 +3870,7 @@ GameObject:
   - component: {fileID: 1085036649}
   - component: {fileID: 1085036648}
   - component: {fileID: 1085036654}
+  - component: {fileID: 1085036655}
   m_Layer: 0
   m_Name: spaceGoast (4)
   m_TagString: Enemy
@@ -3705,12 +3995,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1085036647}
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 6.6, y: -10.47, z: 131.11}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 376.36963, y: 64.46872, z: -763.54504}
   m_LocalScale: {x: 7, y: 7, z: 6}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_Father: {fileID: 1426451749}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!114 &1085036654
 MonoBehaviour:
@@ -3724,13 +4014,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 25
   spriteRenderer: {fileID: 0}
   color:
     serializedVersion: 2
     rgba: 4278230527
-  deleteBullet: 0
+  deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+--- !u!54 &1085036655
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085036647}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &1102002188
 GameObject:
   m_ObjectHideFlags: 0
@@ -3746,6 +4052,7 @@ GameObject:
   - component: {fileID: 1102002190}
   - component: {fileID: 1102002189}
   - component: {fileID: 1102002195}
+  - component: {fileID: 1102002196}
   m_Layer: 0
   m_Name: spaceGoast (7)
   m_TagString: Enemy
@@ -3870,12 +4177,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1102002188}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 6.6, y: -40.7, z: 10.2}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 376.36963, y: 34.23872, z: -884.455}
   m_LocalScale: {x: 7, y: 7, z: 6}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_Father: {fileID: 1426451749}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!114 &1102002195
 MonoBehaviour:
@@ -3889,13 +4196,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 25
   spriteRenderer: {fileID: 0}
   color:
     serializedVersion: 2
     rgba: 4278230527
-  deleteBullet: 0
+  deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+--- !u!54 &1102002196
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102002188}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &1292416592
 GameObject:
   m_ObjectHideFlags: 0
@@ -3911,6 +4234,7 @@ GameObject:
   - component: {fileID: 1292416594}
   - component: {fileID: 1292416593}
   - component: {fileID: 1292416599}
+  - component: {fileID: 1292416600}
   m_Layer: 0
   m_Name: spaceGoast (1)
   m_TagString: Enemy
@@ -4035,12 +4359,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1292416592}
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 6.6, y: 0, z: 105.2}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 376.36963, y: 74.93872, z: -789.455}
   m_LocalScale: {x: 7, y: 7, z: 6}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 1426451749}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!114 &1292416599
 MonoBehaviour:
@@ -4054,13 +4378,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 25
   spriteRenderer: {fileID: 0}
   color:
     serializedVersion: 2
     rgba: 4278230527
-  deleteBullet: 0
+  deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+--- !u!54 &1292416600
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292416592}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!850595691 &1367022258
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -4180,7 +4520,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Survive for one 36000th of an hour!
+  m_text: Survive for the third imapact
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 24fc56a58cde7b644b14b1d6165db7c3, type: 2}
   m_sharedMaterial: {fileID: -3828045435248735030, guid: 24fc56a58cde7b644b14b1d6165db7c3, type: 2}
@@ -4207,8 +4547,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 200
-  m_fontSizeBase: 200
+  m_fontSize: 68.12
+  m_fontSizeBase: 68.12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4276,6 +4616,67 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1402.09, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1426451748
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1426451749}
+  m_Layer: 0
+  m_Name: SpaceGoats
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1426451749
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426451748}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -369.76962, y: -74.93872, z: 894.655}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 691411503}
+  - {fileID: 1292416598}
+  - {fileID: 1051666145}
+  - {fileID: 292442276}
+  - {fileID: 1085036653}
+  - {fileID: 649196556}
+  - {fileID: 737054624}
+  - {fileID: 1102002194}
+  - {fileID: 2074156615}
+  - {fileID: 621236588}
+  - {fileID: 273597691}
+  - {fileID: 2033121023}
+  - {fileID: 1452050901}
+  - {fileID: 2000192952}
+  - {fileID: 155850238}
+  - {fileID: 710817988}
+  - {fileID: 65814172}
+  - {fileID: 664941973}
+  - {fileID: 403166805}
+  - {fileID: 1729221259}
+  - {fileID: 1574690801}
+  - {fileID: 145366096}
+  - {fileID: 1037406333}
+  - {fileID: 2016102103}
+  - {fileID: 427013312}
+  - {fileID: 1881908746}
+  - {fileID: 2065209290}
+  - {fileID: 30643434}
+  - {fileID: 71318770}
+  - {fileID: 1775549201}
+  - {fileID: 1679312983}
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1429486083
 GameObject:
   m_ObjectHideFlags: 0
@@ -4383,6 +4784,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obama: {fileID: 2100000, guid: acf60b037fb5cc0489d05beca434b2bb, type: 2}
+  SpinSpeed: 0.01
 --- !u!1 &1452050895
 GameObject:
   m_ObjectHideFlags: 0
@@ -4398,6 +4800,7 @@ GameObject:
   - component: {fileID: 1452050897}
   - component: {fileID: 1452050896}
   - component: {fileID: 1452050902}
+  - component: {fileID: 1452050903}
   m_Layer: 0
   m_Name: spaceGoast (12)
   m_TagString: Enemy
@@ -4522,12 +4925,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1452050895}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 6.6, y: -218.43, z: -70.53}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 376.36963, y: -143.49127, z: -965.18506}
   m_LocalScale: {x: 7, y: 7, z: 6}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_Father: {fileID: 1426451749}
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!114 &1452050902
 MonoBehaviour:
@@ -4541,13 +4944,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 25
   spriteRenderer: {fileID: 0}
   color:
     serializedVersion: 2
     rgba: 4278230527
-  deleteBullet: 0
+  deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+--- !u!54 &1452050903
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452050895}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &1574690795
 GameObject:
   m_ObjectHideFlags: 0
@@ -4563,6 +4982,7 @@ GameObject:
   - component: {fileID: 1574690797}
   - component: {fileID: 1574690796}
   - component: {fileID: 1574690802}
+  - component: {fileID: 1574690803}
   m_Layer: 0
   m_Name: spaceGoast (20)
   m_TagString: Enemy
@@ -4687,12 +5107,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1574690795}
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 6.6, y: 136.2, z: 340}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 376.36963, y: 211.13872, z: -554.655}
   m_LocalScale: {x: 7, y: 7, z: 6}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_Father: {fileID: 1426451749}
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!114 &1574690802
 MonoBehaviour:
@@ -4706,13 +5126,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 25
   spriteRenderer: {fileID: 0}
   color:
     serializedVersion: 2
     rgba: 4278230527
-  deleteBullet: 0
+  deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+--- !u!54 &1574690803
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574690795}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &1679312977
 GameObject:
   m_ObjectHideFlags: 0
@@ -4728,6 +5164,7 @@ GameObject:
   - component: {fileID: 1679312979}
   - component: {fileID: 1679312978}
   - component: {fileID: 1679312984}
+  - component: {fileID: 1679312985}
   m_Layer: 0
   m_Name: spaceGoast (28)
   m_TagString: Enemy
@@ -4852,12 +5289,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1679312977}
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 6.6, y: -7.63, z: 441.94}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 376.36963, y: 67.30872, z: -452.71503}
   m_LocalScale: {x: 7, y: 7, z: 6}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 37
+  m_Father: {fileID: 1426451749}
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!114 &1679312984
 MonoBehaviour:
@@ -4871,13 +5308,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 25
   spriteRenderer: {fileID: 0}
   color:
     serializedVersion: 2
     rgba: 4278230527
-  deleteBullet: 0
+  deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+--- !u!54 &1679312985
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679312977}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &1710135952
 GameObject:
   m_ObjectHideFlags: 0
@@ -4936,6 +5389,7 @@ GameObject:
   - component: {fileID: 1729221255}
   - component: {fileID: 1729221254}
   - component: {fileID: 1729221260}
+  - component: {fileID: 1729221261}
   m_Layer: 0
   m_Name: spaceGoast (19)
   m_TagString: Enemy
@@ -5060,12 +5514,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1729221253}
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 6.6, y: -150.03, z: 368.68}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 376.36963, y: -75.09128, z: -525.97504}
   m_LocalScale: {x: 7, y: 7, z: 6}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_Father: {fileID: 1426451749}
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!114 &1729221260
 MonoBehaviour:
@@ -5079,13 +5533,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 25
   spriteRenderer: {fileID: 0}
   color:
     serializedVersion: 2
     rgba: 4278230527
-  deleteBullet: 0
+  deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+--- !u!54 &1729221261
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729221253}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &1775549195
 GameObject:
   m_ObjectHideFlags: 0
@@ -5101,6 +5571,7 @@ GameObject:
   - component: {fileID: 1775549197}
   - component: {fileID: 1775549196}
   - component: {fileID: 1775549202}
+  - component: {fileID: 1775549203}
   m_Layer: 0
   m_Name: spaceGoast (27)
   m_TagString: Enemy
@@ -5225,12 +5696,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1775549195}
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 6.6, y: -6.6, z: 498.7}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 376.36963, y: 68.33872, z: -395.95502}
   m_LocalScale: {x: 7, y: 7, z: 6}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 36
+  m_Father: {fileID: 1426451749}
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!114 &1775549202
 MonoBehaviour:
@@ -5244,13 +5715,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 25
   spriteRenderer: {fileID: 0}
   color:
     serializedVersion: 2
     rgba: 4278230527
-  deleteBullet: 0
+  deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+--- !u!54 &1775549203
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775549195}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &1838082112
 GameObject:
   m_ObjectHideFlags: 0
@@ -5400,6 +5887,7 @@ GameObject:
   - component: {fileID: 1881908742}
   - component: {fileID: 1881908741}
   - component: {fileID: 1881908747}
+  - component: {fileID: 1881908748}
   m_Layer: 0
   m_Name: spaceGoast (25)
   m_TagString: Enemy
@@ -5524,12 +6012,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1881908740}
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 6.6, y: 7.11, z: 441.36}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 376.36963, y: 82.04872, z: -453.29504}
   m_LocalScale: {x: 7, y: 7, z: 6}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_Father: {fileID: 1426451749}
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!114 &1881908747
 MonoBehaviour:
@@ -5543,13 +6031,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 25
   spriteRenderer: {fileID: 0}
   color:
     serializedVersion: 2
     rgba: 4278230527
-  deleteBullet: 0
+  deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+--- !u!54 &1881908748
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881908740}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &2000192946
 GameObject:
   m_ObjectHideFlags: 0
@@ -5565,6 +6069,7 @@ GameObject:
   - component: {fileID: 2000192948}
   - component: {fileID: 2000192947}
   - component: {fileID: 2000192953}
+  - component: {fileID: 2000192954}
   m_Layer: 0
   m_Name: spaceGoast (13)
   m_TagString: Enemy
@@ -5689,12 +6194,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2000192946}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 6.6, y: -120.3, z: 181.13}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 376.36963, y: -45.361282, z: -713.525}
   m_LocalScale: {x: 7, y: 7, z: 6}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_Father: {fileID: 1426451749}
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!114 &2000192953
 MonoBehaviour:
@@ -5708,13 +6213,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 25
   spriteRenderer: {fileID: 0}
   color:
     serializedVersion: 2
     rgba: 4278230527
-  deleteBullet: 0
+  deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+--- !u!54 &2000192954
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000192946}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &2010834460
 GameObject:
   m_ObjectHideFlags: 0
@@ -5804,6 +6325,7 @@ GameObject:
   - component: {fileID: 2016102099}
   - component: {fileID: 2016102098}
   - component: {fileID: 2016102104}
+  - component: {fileID: 2016102105}
   m_Layer: 0
   m_Name: spaceGoast (23)
   m_TagString: Enemy
@@ -5928,12 +6450,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2016102097}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 6.6, y: 100, z: -59.3}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 376.36963, y: 174.93872, z: -953.955}
   m_LocalScale: {x: 7, y: 7, z: 6}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_Father: {fileID: 1426451749}
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!114 &2016102104
 MonoBehaviour:
@@ -5947,13 +6469,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 25
   spriteRenderer: {fileID: 0}
   color:
     serializedVersion: 2
     rgba: 4278230527
-  deleteBullet: 0
+  deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+--- !u!54 &2016102105
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016102097}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &2033121017
 GameObject:
   m_ObjectHideFlags: 0
@@ -5969,6 +6507,7 @@ GameObject:
   - component: {fileID: 2033121019}
   - component: {fileID: 2033121018}
   - component: {fileID: 2033121024}
+  - component: {fileID: 2033121025}
   m_Layer: 0
   m_Name: spaceGoast (11)
   m_TagString: Enemy
@@ -6093,12 +6632,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2033121017}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 6.6, y: 23.56, z: -4.6}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 376.36963, y: 98.49872, z: -899.255}
   m_LocalScale: {x: 7, y: 7, z: 6}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_Father: {fileID: 1426451749}
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!114 &2033121024
 MonoBehaviour:
@@ -6112,13 +6651,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 25
   spriteRenderer: {fileID: 0}
   color:
     serializedVersion: 2
     rgba: 4278230527
-  deleteBullet: 0
+  deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+--- !u!54 &2033121025
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2033121017}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &2065209284
 GameObject:
   m_ObjectHideFlags: 0
@@ -6134,6 +6689,7 @@ GameObject:
   - component: {fileID: 2065209286}
   - component: {fileID: 2065209285}
   - component: {fileID: 2065209291}
+  - component: {fileID: 2065209292}
   m_Layer: 0
   m_Name: spaceGoast (26)
   m_TagString: Enemy
@@ -6258,12 +6814,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2065209284}
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 6.6, y: -5.6, z: 433}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 376.36963, y: 69.33872, z: -461.65503}
   m_LocalScale: {x: 7, y: 7, z: 6}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_Father: {fileID: 1426451749}
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!114 &2065209291
 MonoBehaviour:
@@ -6277,13 +6833,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 25
   spriteRenderer: {fileID: 0}
   color:
     serializedVersion: 2
     rgba: 4278230527
-  deleteBullet: 0
+  deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+--- !u!54 &2065209292
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065209284}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &2074156609
 GameObject:
   m_ObjectHideFlags: 0
@@ -6299,6 +6871,7 @@ GameObject:
   - component: {fileID: 2074156611}
   - component: {fileID: 2074156610}
   - component: {fileID: 2074156616}
+  - component: {fileID: 2074156617}
   m_Layer: 0
   m_Name: spaceGoast (8)
   m_TagString: Enemy
@@ -6423,12 +6996,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2074156609}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 6.6, y: -218.43, z: -25.72}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 376.36963, y: -143.49127, z: -920.375}
   m_LocalScale: {x: 7, y: 7, z: 6}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_Father: {fileID: 1426451749}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!114 &2074156616
 MonoBehaviour:
@@ -6442,10 +7015,71 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 25
   spriteRenderer: {fileID: 0}
   color:
     serializedVersion: 2
     rgba: 4278230527
-  deleteBullet: 0
+  deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+--- !u!54 &2074156617
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074156609}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!1 &2107500897
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2107500899}
+  - component: {fileID: 2107500898}
+  m_Layer: 0
+  m_Name: dealygoats
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2107500898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107500897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b1fff542ff9b0b4eb69fe41ed570886, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeDelay: 1
+  hiddenObject: {fileID: 1426451748}
+--- !u!4 &2107500899
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107500897}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -369.76962, y: -74.93872, z: 894.655}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

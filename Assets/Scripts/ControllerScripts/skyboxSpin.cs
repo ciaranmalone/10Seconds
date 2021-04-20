@@ -5,11 +5,19 @@ using UnityEngine;
 public class skyboxSpin : MonoBehaviour
 {
     [SerializeField] private Material obama;
+    [SerializeField] private float SpinSpeed = 0.01f;
     private float spin = 0;
 
-    void Update()
+    private void Start()
     {
-        spin = spin + .1f;
+        InvokeRepeating("spinBG", 0, SpinSpeed);
+
+    }
+
+    void spinBG()
+    {
+        spin += .1f;
         obama.SetFloat("_Rotation", spin);
+
     }
 }
