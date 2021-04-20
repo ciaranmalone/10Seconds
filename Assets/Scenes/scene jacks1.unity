@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.36612663, g: 0.36138904, b: 0.47979045, a: 1}
+  m_IndirectSpecularColor: {r: 0.3803464, g: 0.3725063, b: 0.470815, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -256,6 +256,7 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 0
   deleteBullet: 0
+  explosion: {fileID: 0}
 --- !u!95 &62280904
 Animator:
   serializedVersion: 3
@@ -515,6 +516,7 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 0
   deleteBullet: 0
+  explosion: {fileID: 0}
 --- !u!95 &257946160
 Animator:
   serializedVersion: 3
@@ -769,6 +771,7 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 0
   deleteBullet: 0
+  explosion: {fileID: 0}
 --- !u!95 &369744658
 Animator:
   serializedVersion: 3
@@ -921,6 +924,7 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 0
   deleteBullet: 0
+  explosion: {fileID: 0}
 --- !u!95 &435561171
 Animator:
   serializedVersion: 3
@@ -1145,6 +1149,7 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 0
   deleteBullet: 0
+  explosion: {fileID: 0}
 --- !u!95 &479649189
 Animator:
   serializedVersion: 3
@@ -1297,6 +1302,7 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 0
   deleteBullet: 0
+  explosion: {fileID: 0}
 --- !u!95 &481513312
 Animator:
   serializedVersion: 3
@@ -1594,6 +1600,7 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 0
   deleteBullet: 0
+  explosion: {fileID: 0}
 --- !u!95 &717038646
 Animator:
   serializedVersion: 3
@@ -1746,6 +1753,7 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 0
   deleteBullet: 0
+  explosion: {fileID: 0}
 --- !u!95 &794369361
 Animator:
   serializedVersion: 3
@@ -1898,6 +1906,7 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 0
   deleteBullet: 0
+  explosion: {fileID: 0}
 --- !u!95 &803372792
 Animator:
   serializedVersion: 3
@@ -2360,6 +2369,7 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 0
   deleteBullet: 0
+  explosion: {fileID: 0}
 --- !u!95 &970916250
 Animator:
   serializedVersion: 3
@@ -2674,6 +2684,7 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 0
   deleteBullet: 0
+  explosion: {fileID: 0}
 --- !u!95 &1055048017
 Animator:
   serializedVersion: 3
@@ -2826,6 +2837,7 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 0
   deleteBullet: 0
+  explosion: {fileID: 0}
 --- !u!95 &1078967170
 Animator:
   serializedVersion: 3
@@ -2978,6 +2990,7 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 0
   deleteBullet: 0
+  explosion: {fileID: 0}
 --- !u!95 &1107591898
 Animator:
   serializedVersion: 3
@@ -3130,6 +3143,7 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 0
   deleteBullet: 0
+  explosion: {fileID: 0}
 --- !u!95 &1263909986
 Animator:
   serializedVersion: 3
@@ -3282,6 +3296,7 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 0
   deleteBullet: 0
+  explosion: {fileID: 0}
 --- !u!95 &1327928243
 Animator:
   serializedVersion: 3
@@ -3742,6 +3757,7 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 0
   deleteBullet: 0
+  explosion: {fileID: 0}
 --- !u!95 &1461734578
 Animator:
   serializedVersion: 3
@@ -92521,6 +92537,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obama: {fileID: 2100000, guid: 69ff246146fdeae4888b22ea43b7292d, type: 2}
+  SpinSpeed: 0.01
 --- !u!1 &1838082112
 GameObject:
   m_ObjectHideFlags: 0
@@ -92788,6 +92805,7 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 0
   deleteBullet: 0
+  explosion: {fileID: 0}
 --- !u!95 &1915874009
 Animator:
   serializedVersion: 3
@@ -92821,6 +92839,7 @@ GameObject:
   - component: {fileID: 1967726543}
   - component: {fileID: 1967726542}
   - component: {fileID: 1967726541}
+  - component: {fileID: 1967726546}
   m_Layer: 0
   m_Name: spike (1)
   m_TagString: Enemy
@@ -92940,6 +92959,7 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 0
   deleteBullet: 0
+  explosion: {fileID: 0}
 --- !u!95 &1967726545
 Animator:
   serializedVersion: 3
@@ -92959,6 +92979,102 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!82 &1967726546
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967726539}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 637df1e2d2df87a48a9896e01930800c, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &2010834460
 GameObject:
   m_ObjectHideFlags: 0
@@ -93166,6 +93282,7 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 0
   deleteBullet: 0
+  explosion: {fileID: 0}
 --- !u!95 &2033073337
 Animator:
   serializedVersion: 3
@@ -93318,6 +93435,7 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 0
   deleteBullet: 0
+  explosion: {fileID: 0}
 --- !u!95 &2090028873
 Animator:
   serializedVersion: 3
