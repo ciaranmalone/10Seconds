@@ -194,12 +194,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2424e0ce726817f45985ec6f4a66466c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  health: 5
   spriteRenderer: {fileID: 8761316858731664279}
   color:
     serializedVersion: 2
     rgba: 4278238719
   deleteBullet: 1
+  explosion: {fileID: 0}
+  painSound: {fileID: 0}
 --- !u!54 &6449525470119849012
 Rigidbody:
   m_ObjectHideFlags: 0
