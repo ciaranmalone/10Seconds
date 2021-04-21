@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4233728, g: 0.33022416, b: 0.37589115, a: 1}
+  m_IndirectSpecularColor: {r: 0.34651878, g: 0.26732752, b: 0.29252478, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -289,6 +289,7 @@ MonoBehaviour:
     rgba: 4278230527
   deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+  painSound: {fileID: 8300000, guid: 2b335b40686de3a468e88e6bbef8b86e, type: 3}
 --- !u!54 &30643436
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -471,6 +472,7 @@ MonoBehaviour:
     rgba: 4278230527
   deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+  painSound: {fileID: 8300000, guid: 2b335b40686de3a468e88e6bbef8b86e, type: 3}
 --- !u!54 &65814174
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -653,6 +655,7 @@ MonoBehaviour:
     rgba: 4278230527
   deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+  painSound: {fileID: 8300000, guid: 2b335b40686de3a468e88e6bbef8b86e, type: 3}
 --- !u!54 &71318772
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -835,6 +838,7 @@ MonoBehaviour:
     rgba: 4278230527
   deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+  painSound: {fileID: 8300000, guid: 2b335b40686de3a468e88e6bbef8b86e, type: 3}
 --- !u!54 &145366098
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1017,6 +1021,7 @@ MonoBehaviour:
     rgba: 4278230527
   deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+  painSound: {fileID: 8300000, guid: 2b335b40686de3a468e88e6bbef8b86e, type: 3}
 --- !u!54 &155850240
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1306,6 +1311,7 @@ MonoBehaviour:
     rgba: 4278230527
   deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+  painSound: {fileID: 8300000, guid: 2b335b40686de3a468e88e6bbef8b86e, type: 3}
 --- !u!54 &273597693
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1488,6 +1494,7 @@ MonoBehaviour:
     rgba: 4278230527
   deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+  painSound: {fileID: 8300000, guid: 2b335b40686de3a468e88e6bbef8b86e, type: 3}
 --- !u!54 &292442278
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1772,6 +1779,7 @@ MonoBehaviour:
     rgba: 4278230527
   deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+  painSound: {fileID: 8300000, guid: 2b335b40686de3a468e88e6bbef8b86e, type: 3}
 --- !u!54 &403166807
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1954,6 +1962,7 @@ MonoBehaviour:
     rgba: 4278230527
   deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+  painSound: {fileID: 8300000, guid: 2b335b40686de3a468e88e6bbef8b86e, type: 3}
 --- !u!54 &427013314
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2255,6 +2264,7 @@ MonoBehaviour:
     rgba: 4278230527
   deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+  painSound: {fileID: 8300000, guid: 2b335b40686de3a468e88e6bbef8b86e, type: 3}
 --- !u!54 &621236590
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2437,6 +2447,7 @@ MonoBehaviour:
     rgba: 4278230527
   deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+  painSound: {fileID: 8300000, guid: 2b335b40686de3a468e88e6bbef8b86e, type: 3}
 --- !u!54 &649196558
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2619,6 +2630,7 @@ MonoBehaviour:
     rgba: 4278230527
   deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+  painSound: {fileID: 8300000, guid: 2b335b40686de3a468e88e6bbef8b86e, type: 3}
 --- !u!54 &664941975
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2899,6 +2911,7 @@ MonoBehaviour:
     rgba: 4278230527
   deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+  painSound: {fileID: 8300000, guid: 2b335b40686de3a468e88e6bbef8b86e, type: 3}
 --- !u!54 &691411508
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3081,6 +3094,7 @@ MonoBehaviour:
     rgba: 4278230527
   deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+  painSound: {fileID: 8300000, guid: 2b335b40686de3a468e88e6bbef8b86e, type: 3}
 --- !u!54 &710817990
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3263,6 +3277,7 @@ MonoBehaviour:
     rgba: 4278230527
   deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+  painSound: {fileID: 8300000, guid: 2b335b40686de3a468e88e6bbef8b86e, type: 3}
 --- !u!54 &737054626
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3657,6 +3672,7 @@ MonoBehaviour:
     rgba: 4278230527
   deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+  painSound: {fileID: 8300000, guid: 2b335b40686de3a468e88e6bbef8b86e, type: 3}
 --- !u!54 &1037406335
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3839,6 +3855,7 @@ MonoBehaviour:
     rgba: 4278230527
   deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+  painSound: {fileID: 8300000, guid: 2b335b40686de3a468e88e6bbef8b86e, type: 3}
 --- !u!54 &1051666147
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4021,6 +4038,7 @@ MonoBehaviour:
     rgba: 4278230527
   deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+  painSound: {fileID: 8300000, guid: 2b335b40686de3a468e88e6bbef8b86e, type: 3}
 --- !u!54 &1085036655
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4203,6 +4221,7 @@ MonoBehaviour:
     rgba: 4278230527
   deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+  painSound: {fileID: 8300000, guid: 2b335b40686de3a468e88e6bbef8b86e, type: 3}
 --- !u!54 &1102002196
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4385,6 +4404,7 @@ MonoBehaviour:
     rgba: 4278230527
   deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+  painSound: {fileID: 8300000, guid: 2b335b40686de3a468e88e6bbef8b86e, type: 3}
 --- !u!54 &1292416600
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4951,6 +4971,7 @@ MonoBehaviour:
     rgba: 4278230527
   deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+  painSound: {fileID: 8300000, guid: 2b335b40686de3a468e88e6bbef8b86e, type: 3}
 --- !u!54 &1452050903
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5133,6 +5154,7 @@ MonoBehaviour:
     rgba: 4278230527
   deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+  painSound: {fileID: 8300000, guid: 2b335b40686de3a468e88e6bbef8b86e, type: 3}
 --- !u!54 &1574690803
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5315,6 +5337,7 @@ MonoBehaviour:
     rgba: 4278230527
   deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+  painSound: {fileID: 8300000, guid: 2b335b40686de3a468e88e6bbef8b86e, type: 3}
 --- !u!54 &1679312985
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5540,6 +5563,7 @@ MonoBehaviour:
     rgba: 4278230527
   deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+  painSound: {fileID: 8300000, guid: 2b335b40686de3a468e88e6bbef8b86e, type: 3}
 --- !u!54 &1729221261
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5722,6 +5746,7 @@ MonoBehaviour:
     rgba: 4278230527
   deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+  painSound: {fileID: 8300000, guid: 2b335b40686de3a468e88e6bbef8b86e, type: 3}
 --- !u!54 &1775549203
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6038,6 +6063,7 @@ MonoBehaviour:
     rgba: 4278230527
   deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+  painSound: {fileID: 8300000, guid: 2b335b40686de3a468e88e6bbef8b86e, type: 3}
 --- !u!54 &1881908748
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6220,6 +6246,7 @@ MonoBehaviour:
     rgba: 4278230527
   deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+  painSound: {fileID: 8300000, guid: 2b335b40686de3a468e88e6bbef8b86e, type: 3}
 --- !u!54 &2000192954
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6476,6 +6503,7 @@ MonoBehaviour:
     rgba: 4278230527
   deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+  painSound: {fileID: 8300000, guid: 2b335b40686de3a468e88e6bbef8b86e, type: 3}
 --- !u!54 &2016102105
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6658,6 +6686,7 @@ MonoBehaviour:
     rgba: 4278230527
   deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+  painSound: {fileID: 8300000, guid: 2b335b40686de3a468e88e6bbef8b86e, type: 3}
 --- !u!54 &2033121025
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6840,6 +6869,7 @@ MonoBehaviour:
     rgba: 4278230527
   deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+  painSound: {fileID: 8300000, guid: 2b335b40686de3a468e88e6bbef8b86e, type: 3}
 --- !u!54 &2065209292
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7022,6 +7052,7 @@ MonoBehaviour:
     rgba: 4278230527
   deleteBullet: 1
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+  painSound: {fileID: 8300000, guid: 2b335b40686de3a468e88e6bbef8b86e, type: 3}
 --- !u!54 &2074156617
 Rigidbody:
   m_ObjectHideFlags: 0

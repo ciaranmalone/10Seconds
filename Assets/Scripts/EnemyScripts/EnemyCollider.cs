@@ -9,6 +9,7 @@ public class EnemyCollider : MonoBehaviour
     [SerializeField] private Color32 color;
     [SerializeField] private bool deleteBullet = false;
     [SerializeField] private GameObject explosion;
+    [SerializeField] private AudioClip painSound;
 
 
     private void Start()
@@ -29,6 +30,14 @@ public class EnemyCollider : MonoBehaviour
 
             StartCoroutine(flash());
             health--;
+            AudioSource playMe = gameObject.AddComponent(typeof(AudioSource)) as AudioSource;
+            if (painSound != null)
+            {
+                playMe.clip = painSound;
+                playMe.PlayOneShot(playMe.clip, 1); //Just play is deprecated
+            }
+          
+           
             if (health == 0)
             {
                 death();

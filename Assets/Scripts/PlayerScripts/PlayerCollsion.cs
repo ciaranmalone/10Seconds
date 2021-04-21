@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerCollsion : MonoBehaviour
 {
+    [SerializeField] private string nextLevel;
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Enemy"))
@@ -13,7 +14,7 @@ public class PlayerCollsion : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Finish"))
         {
-            Debug.Log("OH CANADA");
+            SceneManager.LoadScene(nextLevel);
         }
     }
     void death()
