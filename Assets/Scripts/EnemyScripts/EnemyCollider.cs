@@ -10,8 +10,6 @@ public class EnemyCollider : MonoBehaviour
     [SerializeField] private bool deleteBullet = false;
     [SerializeField] private GameObject explosion;
     [SerializeField] private AudioClip painSound;
-
-
     private void Start()
     {
 

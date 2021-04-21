@@ -9,15 +9,27 @@ EditorBuildSettings:
     path: Assets/Scenes/mainMenu.unity
     guid: 3fd4def1d4daf1240bbf361e24e7df71
   - enabled: 1
+    path: Assets/Scenes/LevelSpace.unity
+    guid: dc83833e9a4529c4dab2db56c839e469
+  - enabled: 1
+    path: Assets/Scenes/LevelObamaSquare.unity
+    guid: 6d4a48a0496a3b043a753be9939827ad
+  - enabled: 1
+    path: Assets/Scenes/LevelFinish.unity
+    guid: bd3637a61ec53834daa542b46d218c4b
+  - enabled: 1
+    path: Assets/Scenes/LevelBoneZone.unity
+    guid: 8ff1948f8cc0e8849b54c5d5f67d6182
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/LevelBear.unity
     guid: 49c424124070ac54cb112da442a3ef03
   - enabled: 1
-    path: Assets/Scenes/LevelObamaSquare.unity
-    guid: 6d4a48a0496a3b043a753be9939827ad
+    path: Assets/Scenes/LevelGilgamesh.unity
+    guid: c9aa2a021293bea4ca166476ee9c6ff0
   - enabled: 1
-    path: Assets/Scenes/scene jacks1.unity
-    guid: bd3637a61ec53834daa542b46d218c4b
+    path: Assets/Scenes/EndScene.unity
+    guid: fd033d51c7aae2949a99883c9b1146a6
   m_configObjects: {}
