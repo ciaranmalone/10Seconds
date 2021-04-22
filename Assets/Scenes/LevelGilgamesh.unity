@@ -2279,7 +2279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1226ad87edfc26f4eb355025f32ddeec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enemy: {fileID: 5821374446669988897, guid: cffe7440869a66f4eacc72b8831290af, type: 3}
+  Enemy: {fileID: 5821374446669988897, guid: 7736133b344e3f345825c42e6ab93007, type: 3}
   parent: {fileID: 1179197879}
   spawnTime: 0.1
   startPos: 0

@@ -15,11 +15,11 @@ C:/Users/ciara/OneDrive/Documents/GitHub/10Seconds
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53542
+49787
 Successfully changed project path to: C:/Users/ciara/OneDrive/Documents/GitHub/10Seconds
 C:/Users/ciara/OneDrive/Documents/GitHub/10Seconds
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 41.26 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 39.58 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.1f1 (77a89f25062f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
@@ -35,275 +35,235 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56952
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56384
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001721 seconds.
+Registered in 0.001545 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 43.22 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 40.30 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.882 seconds
+- Completed reload, in  0.813 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000831 seconds.
+Registered in 0.000644 seconds.
 Begin MonoManager ReloadAssembly
+OnLevelWasLoaded was found on PlayersTimeCounter
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 40.46 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 39.34 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.926 seconds
+- Completed reload, in  0.864 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2330 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 118.9 MB.
-System memory in use after: 118.9 MB.
+System memory in use before: 119.0 MB.
+System memory in use after: 119.1 MB.
 
 Unloading 100 unused Assets to reduce memory usage. Loaded Objects now: 2788.
-Total: 2.591600 ms (FindLiveObjects: 0.343400 ms CreateObjectMapping: 0.065300 ms MarkObjects: 1.958300 ms  DeleteObjects: 0.223300 ms)
+Total: 2.575900 ms (FindLiveObjects: 0.364200 ms CreateObjectMapping: 0.070900 ms MarkObjects: 1.918500 ms  DeleteObjects: 0.221100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/EndScene.unity
-  artifactKey: Guid(fd033d51c7aae2949a99883c9b1146a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/EndScene.unity using Guid(fd033d51c7aae2949a99883c9b1146a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0039b542dd03db93f297bd57efb3e463') in 0.007132 seconds
-  Import took 0.011223 seconds .
+  path: Assets/Scenes/NewGameHARD/mainMenu 1.unity
+  artifactKey: Guid(19b1dbd9212140d4eab7ce2b67ce0e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NewGameHARD/mainMenu 1.unity using Guid(19b1dbd9212140d4eab7ce2b67ce0e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a44aaf61da822e861d5865a90601ad') in 0.015031 seconds
+  Import took 0.018381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.452543 seconds.
+  path: Assets/Scenes/NewGameHARD/mainMenuHARD.unity
+  artifactKey: Guid(19b1dbd9212140d4eab7ce2b67ce0e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NewGameHARD/mainMenuHARD.unity using Guid(19b1dbd9212140d4eab7ce2b67ce0e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59cd75b6c7204ce50d7db17b7e6166ec') in 0.007733 seconds
+  Import took 0.011423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.631159 seconds.
+  path: Assets/Scenes/NewGameHARD/SampleScene 1.unity
+  artifactKey: Guid(a5ea60d4f04e66e4ca912ef61d2f78ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NewGameHARD/SampleScene 1.unity using Guid(a5ea60d4f04e66e4ca912ef61d2f78ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31310b7d63fc4f952ca40c5315f2470a') in 0.015336 seconds
+  Import took 0.019103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.899331 seconds.
+  path: Assets/Scenes/NewGameHARD/SampleSceneHARD.unity
+  artifactKey: Guid(a5ea60d4f04e66e4ca912ef61d2f78ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NewGameHARD/SampleSceneHARD.unity using Guid(a5ea60d4f04e66e4ca912ef61d2f78ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13778537bd97e1f84274bcd5f30f7369') in 0.008087 seconds
+  Import took 0.011816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.344855 seconds.
+  path: Assets/Scenes/NewGameHARD/LevelSpace 1.unity
+  artifactKey: Guid(9c64d221434be824993aff393dd28e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NewGameHARD/LevelSpace 1.unity using Guid(9c64d221434be824993aff393dd28e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf89ca45fa608dbfd62e70641aacd9f3') in 0.007671 seconds
+  Import took 0.011316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.075259 seconds.
+  path: Assets/Scenes/NewGameHARD/LevelSpaceHARD.unity
+  artifactKey: Guid(9c64d221434be824993aff393dd28e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NewGameHARD/LevelSpaceHARD.unity using Guid(9c64d221434be824993aff393dd28e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23e6d71b8312514f671035891290b8c') in 0.008488 seconds
+  Import took 0.012264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.373417 seconds.
+  path: Assets/Scenes/NewGameHARD/LevelGilgamesh 1.unity
+  artifactKey: Guid(44898cd79f8181a4fbd4b8a170dfa93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NewGameHARD/LevelGilgamesh 1.unity using Guid(44898cd79f8181a4fbd4b8a170dfa93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecee69218c88faa1f61b32af4e568236') in 0.008486 seconds
+  Import took 0.012193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.610972 seconds.
+  path: Assets/Scenes/NewGameHARD/LevelGilgameshHARD.unity
+  artifactKey: Guid(44898cd79f8181a4fbd4b8a170dfa93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NewGameHARD/LevelGilgameshHARD.unity using Guid(44898cd79f8181a4fbd4b8a170dfa93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbe1f1282a2634ce8b4b5732e96f95c') in 0.007756 seconds
+  Import took 0.011579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.457776 seconds.
+  path: Assets/Scenes/NewGameHARD/LevelObamaSquare 1.unity
+  artifactKey: Guid(4851d019a95e80e4ab01897c36f0ab37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NewGameHARD/LevelObamaSquare 1.unity using Guid(4851d019a95e80e4ab01897c36f0ab37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e304d92ee2113d5afc0256a56d2b018') in 0.008282 seconds
+  Import took 0.012025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.089753 seconds.
+  path: Assets/Scenes/NewGameHARD/LevelObamaSquareHARD.unity
+  artifactKey: Guid(4851d019a95e80e4ab01897c36f0ab37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NewGameHARD/LevelObamaSquareHARD.unity using Guid(4851d019a95e80e4ab01897c36f0ab37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c59b66896cb858d7601810b5bc10db2') in 0.008401 seconds
+  Import took 0.012274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.438691 seconds.
+  path: Assets/Scenes/NewGameHARD/LevelFinish 1.unity
+  artifactKey: Guid(5909edf467e64a54b8b4d9e8736d130d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NewGameHARD/LevelFinish 1.unity using Guid(5909edf467e64a54b8b4d9e8736d130d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772e2092800d049b7b7eaa535a696bdd') in 0.007611 seconds
+  Import took 0.011367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.525778 seconds.
+  path: Assets/Scenes/NewGameHARD/LevelFinishHARD.unity
+  artifactKey: Guid(5909edf467e64a54b8b4d9e8736d130d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NewGameHARD/LevelFinishHARD.unity using Guid(5909edf467e64a54b8b4d9e8736d130d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec75fd42f1175f86f2f3bf96ac25a572') in 0.007856 seconds
+  Import took 0.011775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.476247 seconds.
+  path: Assets/Scenes/NewGameHARD/LevelBoneZone 1.unity
+  artifactKey: Guid(ae504859602f2924bbfeaf653cbcece1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NewGameHARD/LevelBoneZone 1.unity using Guid(ae504859602f2924bbfeaf653cbcece1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d9339db073be35e85508109ea33684') in 0.015280 seconds
+  Import took 0.019009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.066692 seconds.
+  path: Assets/Scenes/NewGameHARD/LevelBoneZoneHARD.unity
+  artifactKey: Guid(ae504859602f2924bbfeaf653cbcece1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NewGameHARD/LevelBoneZoneHARD.unity using Guid(ae504859602f2924bbfeaf653cbcece1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6bb66ea580c456b8fc9b01e282100a5') in 0.005739 seconds
+  Import took 0.009542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.899207 seconds.
+  path: Assets/Materials/BlueSkyes.mat
+  artifactKey: Guid(e8843bf5f8e307a46881df344cd7d8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BlueSkyes.mat using Guid(e8843bf5f8e307a46881df344cd7d8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43106f0146bbf004f56f338a75bbee30') in 0.076123 seconds
+  Import took 0.080340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Materials/obamaTexture.mat
+  artifactKey: Guid(509c24b183e37eb4795642e3eac4c09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/obamaTexture.mat using Guid(509c24b183e37eb4795642e3eac4c09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0613b0483481d6b814b101db4eb651e') in 0.067522 seconds
+  Import took 0.070642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Materials/skyboma.mat
+  artifactKey: Guid(398cee55621006d4ca28eb182f3b4d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/skyboma.mat using Guid(398cee55621006d4ca28eb182f3b4d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70232e0abb66756cba9059f6f8dc5952') in 0.038037 seconds
+  Import took 0.041142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Materials/fixedFinland.mat
+  artifactKey: Guid(69ff246146fdeae4888b22ea43b7292d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/fixedFinland.mat using Guid(69ff246146fdeae4888b22ea43b7292d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090134b11c7a2b298ae510018071e048') in 0.044715 seconds
+  Import took 0.048056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Materials/space probably.mat
+  artifactKey: Guid(acf60b037fb5cc0489d05beca434b2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/space probably.mat using Guid(acf60b037fb5cc0489d05beca434b2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa0b58605f5d721fc7f329cd2230f1a2') in 0.047014 seconds
+  Import took 0.050288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Materials/notBlueSkies.mat
+  artifactKey: Guid(58dd51540ddef6a469a436ad52966c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/notBlueSkies.mat using Guid(58dd51540ddef6a469a436ad52966c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a4af4426485b749b1179bbe6623af2a') in 0.015198 seconds
+  Import took 0.018466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.960057 seconds.
+  path: Assets/Materials/BlueSkyesHARD.mat
+  artifactKey: Guid(8c1a6bb254712f241a670544ee37e53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BlueSkyesHARD.mat using Guid(8c1a6bb254712f241a670544ee37e53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d8aedb3e633670babef198e82091c51') in 0.028604 seconds
+  Import took 0.032423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.834707 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4cc61cec81d3cfcfe825f48095b949') in 0.051264 seconds
+  Import took 0.055613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.575275 seconds.
+  path: Assets/Materials/BlueSkyesHARD.mat
+  artifactKey: Guid(8c1a6bb254712f241a670544ee37e53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BlueSkyesHARD.mat using Guid(8c1a6bb254712f241a670544ee37e53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a1eeed8184f58c6e64f43e784df1e1a') in 0.009530 seconds
+  Import took 0.013871 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000930 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.765 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 115.5 MB.
-System memory in use after: 115.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2792.
-Total: 2.425800 ms (FindLiveObjects: 0.304000 ms CreateObjectMapping: 0.068800 ms MarkObjects: 1.921200 ms  DeleteObjects: 0.131000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001145 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.775 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 115.5 MB.
-System memory in use after: 115.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2796.
-Total: 2.943300 ms (FindLiveObjects: 0.308000 ms CreateObjectMapping: 0.061500 ms MarkObjects: 2.425400 ms  DeleteObjects: 0.147200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001083 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.780 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 115.6 MB.
-System memory in use after: 115.7 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2800.
-Total: 2.517800 ms (FindLiveObjects: 0.313500 ms CreateObjectMapping: 0.067700 ms MarkObjects: 1.990700 ms  DeleteObjects: 0.144700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001094 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.754 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 115.6 MB.
-System memory in use after: 115.7 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2804.
-Total: 2.897100 ms (FindLiveObjects: 0.293500 ms CreateObjectMapping: 0.165800 ms MarkObjects: 2.269200 ms  DeleteObjects: 0.167000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 962.059834 seconds.
-  path: Assets/Scenes/LevelSpace.unity
-  artifactKey: Guid(dc83833e9a4529c4dab2db56c839e469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LevelSpace.unity using Guid(dc83833e9a4529c4dab2db56c839e469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '093142b91ac720903cd23299a1f03ebd') in 0.020680 seconds
-  Import took 0.024573 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 114.787412 seconds.
-  path: Assets/Scenes/mainMenu.unity
-  artifactKey: Guid(3fd4def1d4daf1240bbf361e24e7df71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/mainMenu.unity using Guid(3fd4def1d4daf1240bbf361e24e7df71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d90c5b289e75b9ee5f347ad3a9b1c7c') in 0.007921 seconds
-  Import took 0.019428 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001119 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.748 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 115.5 MB.
-System memory in use after: 115.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2808.
-Total: 2.360000 ms (FindLiveObjects: 0.252000 ms CreateObjectMapping: 0.059500 ms MarkObjects: 1.914100 ms  DeleteObjects: 0.133600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 64.469833 seconds.
-  path: Assets/Scenes/LevelSpace.unity
-  artifactKey: Guid(dc83833e9a4529c4dab2db56c839e469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LevelSpace.unity using Guid(dc83833e9a4529c4dab2db56c839e469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a985d36bae4f402279e158e4d5ff944') in 0.009129 seconds
-  Import took 0.012901 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 37.110738 seconds.
-  path: Assets/Scenes/LevelGilgamesh.unity
-  artifactKey: Guid(c9aa2a021293bea4ca166476ee9c6ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LevelGilgamesh.unity using Guid(c9aa2a021293bea4ca166476ee9c6ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db6ed22fc916f94e8ab271d3f7a15ce') in 0.008172 seconds
-  Import took 0.011807 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.320481 seconds.
-  path: Assets/Scenes/mainMenu.unity
-  artifactKey: Guid(3fd4def1d4daf1240bbf361e24e7df71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/mainMenu.unity using Guid(3fd4def1d4daf1240bbf361e24e7df71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb679bfc57978b4dfbc0f4b2fa352044') in 0.002485 seconds
-  Import took 0.006273 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001076 seconds.
+Registered in 0.000986 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
@@ -330,419 +290,27 @@ Add a delegate to SceneManager.sceneLoaded instead to get notifications after sc
 Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 115.6 MB.
-System memory in use after: 115.7 MB.
+System memory in use before: 118.3 MB.
+System memory in use after: 118.4 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2812.
-Total: 3.196700 ms (FindLiveObjects: 0.334900 ms CreateObjectMapping: 0.062600 ms MarkObjects: 2.631200 ms  DeleteObjects: 0.166100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 56.009750 seconds.
-  path: Assets/Scenes/LevelObamaSquare.unity
-  artifactKey: Guid(6d4a48a0496a3b043a753be9939827ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LevelObamaSquare.unity using Guid(6d4a48a0496a3b043a753be9939827ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6d533345db2af7765bcee684c909db7') in 0.011307 seconds
-  Import took 0.015076 seconds .
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2834.
+Total: 2.363500 ms (FindLiveObjects: 0.266100 ms CreateObjectMapping: 0.067300 ms MarkObjects: 1.900600 ms  DeleteObjects: 0.128600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.348637 seconds.
-  path: Assets/Scenes/LevelSpace.unity
-  artifactKey: Guid(dc83833e9a4529c4dab2db56c839e469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LevelSpace.unity using Guid(dc83833e9a4529c4dab2db56c839e469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d197ca5e0ca3c403cbb0a582c557b13') in 0.002337 seconds
-  Import took 0.005705 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 161.517845 seconds.
-  path: Assets/Animations/PlayersTime.controller
-  artifactKey: Guid(1ae754a56a4e1e546be7156281174856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/PlayersTime.controller using Guid(1ae754a56a4e1e546be7156281174856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec799289319b4013eba4fc2f694eacfb') in 0.021938 seconds
-  Import took 0.025655 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.853651 seconds.
-  path: Assets/Animations/CounterTimerAnim.anim
-  artifactKey: Guid(342008b433e807b4faa9087eed86f807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/CounterTimerAnim.anim using Guid(342008b433e807b4faa9087eed86f807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d24440298f9f4fcc3f2e54c24c03fd') in 0.009444 seconds
-  Import took 0.013364 seconds .
+  Time since last request: 18.921691 seconds.
+  path: Assets/Materials/BlueSkyesHARD.mat
+  artifactKey: Guid(8c1a6bb254712f241a670544ee37e53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BlueSkyesHARD.mat using Guid(8c1a6bb254712f241a670544ee37e53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5672b4388ee2e964707c6185bdae30') in 0.043132 seconds
+  Import took 0.046645 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001018 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.744 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 115.7 MB.
-System memory in use after: 115.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2816.
-Total: 2.464900 ms (FindLiveObjects: 0.295000 ms CreateObjectMapping: 0.069400 ms MarkObjects: 1.963600 ms  DeleteObjects: 0.136000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000944 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.729 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 115.7 MB.
-System memory in use after: 115.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2820.
-Total: 2.395200 ms (FindLiveObjects: 0.255000 ms CreateObjectMapping: 0.059800 ms MarkObjects: 1.946400 ms  DeleteObjects: 0.133200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000983 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.740 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 115.7 MB.
-System memory in use after: 115.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2824.
-Total: 2.454900 ms (FindLiveObjects: 0.307800 ms CreateObjectMapping: 0.060000 ms MarkObjects: 1.946600 ms  DeleteObjects: 0.139400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 260.502647 seconds.
-  path: Assets/Animations/PlayersTime.controller
-  artifactKey: Guid(1ae754a56a4e1e546be7156281174856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/PlayersTime.controller using Guid(1ae754a56a4e1e546be7156281174856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a24c4fde10ebb71fdbe55972a66aeb5f') in 0.010025 seconds
-  Import took 0.013887 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000950 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.734 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 115.6 MB.
-System memory in use after: 115.7 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2828.
-Total: 2.433500 ms (FindLiveObjects: 0.283800 ms CreateObjectMapping: 0.068400 ms MarkObjects: 1.942300 ms  DeleteObjects: 0.137900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000988 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.724 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 115.7 MB.
-System memory in use after: 115.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2832.
-Total: 2.472000 ms (FindLiveObjects: 0.282700 ms CreateObjectMapping: 0.068500 ms MarkObjects: 1.972500 ms  DeleteObjects: 0.147300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000965 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.759 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 115.7 MB.
-System memory in use after: 115.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2836.
-Total: 2.381600 ms (FindLiveObjects: 0.255000 ms CreateObjectMapping: 0.065600 ms MarkObjects: 1.923000 ms  DeleteObjects: 0.137200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001047 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.856 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 115.7 MB.
-System memory in use after: 115.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2840.
-Total: 2.828500 ms (FindLiveObjects: 0.439900 ms CreateObjectMapping: 0.084300 ms MarkObjects: 2.145200 ms  DeleteObjects: 0.157900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000962 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.857 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 115.7 MB.
-System memory in use after: 115.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2844.
-Total: 2.458500 ms (FindLiveObjects: 0.337400 ms CreateObjectMapping: 0.058500 ms MarkObjects: 1.916500 ms  DeleteObjects: 0.145100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001135 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.872 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 115.7 MB.
-System memory in use after: 115.7 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2848.
-Total: 2.796200 ms (FindLiveObjects: 0.343300 ms CreateObjectMapping: 0.062100 ms MarkObjects: 2.225200 ms  DeleteObjects: 0.164900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000995 seconds.
+Registered in 0.000937 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.750 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 115.8 MB.
-System memory in use after: 115.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2852.
-Total: 2.706800 ms (FindLiveObjects: 0.409000 ms CreateObjectMapping: 0.078500 ms MarkObjects: 2.068400 ms  DeleteObjects: 0.149800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001619 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -763,22 +331,46 @@ OnLevelWasLoaded was found on PlayersTimeCounter
 This message has been deprecated and will be removed in a later version of Unity.
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
 
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 115.8 MB.
-System memory in use after: 115.9 MB.
+System memory in use before: 118.3 MB.
+System memory in use after: 118.4 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2856.
-Total: 2.454400 ms (FindLiveObjects: 0.260900 ms CreateObjectMapping: 0.060300 ms MarkObjects: 1.990500 ms  DeleteObjects: 0.141800 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2839.
+Total: 2.448700 ms (FindLiveObjects: 0.262900 ms CreateObjectMapping: 0.060600 ms MarkObjects: 1.967100 ms  DeleteObjects: 0.157100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 121.341010 seconds.
+  path: Assets/Materials/BlueSkyesHARD.mat
+  artifactKey: Guid(8c1a6bb254712f241a670544ee37e53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BlueSkyesHARD.mat using Guid(8c1a6bb254712f241a670544ee37e53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b345d4c606d525ffabaed373ea489f79') in 0.045376 seconds
+  Import took 0.048975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Materials/space probably.mat
+  artifactKey: Guid(acf60b037fb5cc0489d05beca434b2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/space probably.mat using Guid(acf60b037fb5cc0489d05beca434b2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59870c92296f38fb6bb123b67bd2a060') in 0.023087 seconds
+  Import took 0.026282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Materials/BlueSkyesHARD.mat
+  artifactKey: Guid(8c1a6bb254712f241a670544ee37e53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BlueSkyesHARD.mat using Guid(8c1a6bb254712f241a670544ee37e53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b345d4c606d525ffabaed373ea489f79') in 0.008405 seconds
+  Import took 0.011566 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000907 seconds.
+Registered in 0.000930 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -793,7 +385,7 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.764 seconds
+- Completed reload, in  0.722 seconds
 Platform modules already initialized, skipping
 OnLevelWasLoaded was found on PlayersTimeCounter
 This message has been deprecated and will be removed in a later version of Unity.
@@ -802,60 +394,16 @@ Add a delegate to SceneManager.sceneLoaded instead to get notifications after sc
 Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 115.8 MB.
-System memory in use after: 115.9 MB.
+System memory in use before: 118.4 MB.
+System memory in use after: 118.5 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2860.
-Total: 2.622000 ms (FindLiveObjects: 0.396700 ms CreateObjectMapping: 0.061500 ms MarkObjects: 2.022600 ms  DeleteObjects: 0.140000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001033 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.746 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 115.8 MB.
-System memory in use after: 115.9 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2864.
-Total: 2.393700 ms (FindLiveObjects: 0.260900 ms CreateObjectMapping: 0.058600 ms MarkObjects: 1.932300 ms  DeleteObjects: 0.140900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 536.055514 seconds.
-  path: Assets/Animations/PlayersTime.controller
-  artifactKey: Guid(1ae754a56a4e1e546be7156281174856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/PlayersTime.controller using Guid(1ae754a56a4e1e546be7156281174856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813ee862ee53339bc29c6440d3da3321') in 0.009932 seconds
-  Import took 0.013930 seconds .
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2844.
+Total: 2.536500 ms (FindLiveObjects: 0.274600 ms CreateObjectMapping: 0.061500 ms MarkObjects: 2.058700 ms  DeleteObjects: 0.140800 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000920 seconds.
+Registered in 0.001073 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
@@ -873,28 +421,28 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.746 seconds
+- Completed reload, in  0.727 seconds
 Platform modules already initialized, skipping
 OnLevelWasLoaded was found on PlayersTimeCounter
 This message has been deprecated and will be removed in a later version of Unity.
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
 
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 115.7 MB.
-System memory in use after: 115.8 MB.
+System memory in use before: 118.4 MB.
+System memory in use after: 118.5 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2868.
-Total: 2.432300 ms (FindLiveObjects: 0.276000 ms CreateObjectMapping: 0.058800 ms MarkObjects: 1.955400 ms  DeleteObjects: 0.141100 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2848.
+Total: 2.486400 ms (FindLiveObjects: 0.280400 ms CreateObjectMapping: 0.068400 ms MarkObjects: 1.989300 ms  DeleteObjects: 0.147100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000952 seconds.
+Registered in 0.000872 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -909,7 +457,95 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.761 seconds
+- Completed reload, in  0.723 seconds
+Platform modules already initialized, skipping
+OnLevelWasLoaded was found on PlayersTimeCounter
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.3 MB.
+System memory in use after: 118.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2852.
+Total: 2.414600 ms (FindLiveObjects: 0.266100 ms CreateObjectMapping: 0.066200 ms MarkObjects: 1.945800 ms  DeleteObjects: 0.135400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000977 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.721 seconds
+Platform modules already initialized, skipping
+OnLevelWasLoaded was found on PlayersTimeCounter
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.3 MB.
+System memory in use after: 118.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2856.
+Total: 2.671900 ms (FindLiveObjects: 0.288300 ms CreateObjectMapping: 0.071800 ms MarkObjects: 2.156800 ms  DeleteObjects: 0.154100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 119.700958 seconds.
+  path: Assets/Scenes/NewGameHARD/mainMenuHARD.unity
+  artifactKey: Guid(19b1dbd9212140d4eab7ce2b67ce0e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NewGameHARD/mainMenuHARD.unity using Guid(19b1dbd9212140d4eab7ce2b67ce0e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64681765d4f29a7a4d26f51adbb88419') in 0.006011 seconds
+  Import took 0.009747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.613625 seconds.
+  path: Assets/Scenes/mainMenu.unity
+  artifactKey: Guid(3fd4def1d4daf1240bbf361e24e7df71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mainMenu.unity using Guid(3fd4def1d4daf1240bbf361e24e7df71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52e77eaba56538888f18fbac4e92edde') in 0.005889 seconds
+  Import took 0.009829 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000863 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.725 seconds
 Platform modules already initialized, skipping
 OnLevelWasLoaded was found on PlayersTimeCounter
 This message has been deprecated and will be removed in a later version of Unity.
@@ -918,19 +554,119 @@ Add a delegate to SceneManager.sceneLoaded instead to get notifications after sc
 Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 115.7 MB.
-System memory in use after: 115.8 MB.
+System memory in use before: 118.4 MB.
+System memory in use after: 118.5 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2872.
-Total: 2.516000 ms (FindLiveObjects: 0.320000 ms CreateObjectMapping: 0.066900 ms MarkObjects: 1.979000 ms  DeleteObjects: 0.148900 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2860.
+Total: 2.525200 ms (FindLiveObjects: 0.273600 ms CreateObjectMapping: 0.059100 ms MarkObjects: 2.055600 ms  DeleteObjects: 0.136200 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 67.336221 seconds.
-  path: Assets/Scenes/mainMenu.unity
-  artifactKey: Guid(3fd4def1d4daf1240bbf361e24e7df71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/mainMenu.unity using Guid(3fd4def1d4daf1240bbf361e24e7df71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e9e0bd51de061e73f3b94fc4214b11') in 0.006227 seconds
-  Import took 0.009837 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.053834 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.368 seconds
+Platform modules already initialized, skipping
+OnLevelWasLoaded was found on PlayersTimeCounter
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.5 MB.
+System memory in use after: 118.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2864.
+Total: 3.397600 ms (FindLiveObjects: 0.408900 ms CreateObjectMapping: 0.081800 ms MarkObjects: 2.737800 ms  DeleteObjects: 0.167900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001049 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.716 seconds
+Platform modules already initialized, skipping
+OnLevelWasLoaded was found on PlayersTimeCounter
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.5 MB.
+System memory in use after: 118.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2868.
+Total: 2.362200 ms (FindLiveObjects: 0.253500 ms CreateObjectMapping: 0.059000 ms MarkObjects: 1.913800 ms  DeleteObjects: 0.135100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000894 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.711 seconds
+Platform modules already initialized, skipping
+OnLevelWasLoaded was found on PlayersTimeCounter
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.5 MB.
+System memory in use after: 118.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2872.
+Total: 2.499700 ms (FindLiveObjects: 0.253800 ms CreateObjectMapping: 0.062700 ms MarkObjects: 2.033600 ms  DeleteObjects: 0.148900 ms)
 
 ========================================================================
 Received Prepare
@@ -938,7 +674,7 @@ Registering precompiled user dll's ...
 Registered in 0.001186 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -953,28 +689,36 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.743 seconds
+- Completed reload, in  0.721 seconds
 Platform modules already initialized, skipping
 OnLevelWasLoaded was found on PlayersTimeCounter
 This message has been deprecated and will be removed in a later version of Unity.
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
 
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 115.7 MB.
-System memory in use after: 115.8 MB.
+System memory in use before: 118.5 MB.
+System memory in use after: 118.6 MB.
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2876.
-Total: 2.410600 ms (FindLiveObjects: 0.260800 ms CreateObjectMapping: 0.065000 ms MarkObjects: 1.948900 ms  DeleteObjects: 0.135100 ms)
+Total: 2.583400 ms (FindLiveObjects: 0.279700 ms CreateObjectMapping: 0.061000 ms MarkObjects: 2.103200 ms  DeleteObjects: 0.138700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 129.715868 seconds.
+  path: Assets/Scenes/mainMenu.unity
+  artifactKey: Guid(3fd4def1d4daf1240bbf361e24e7df71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mainMenu.unity using Guid(3fd4def1d4daf1240bbf361e24e7df71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d128e123eebcb56a6a96f40338577e1') in 0.012912 seconds
+  Import took 0.016797 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001047 seconds.
+Registered in 0.001030 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -989,7 +733,7 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.764 seconds
+- Completed reload, in  0.714 seconds
 Platform modules already initialized, skipping
 OnLevelWasLoaded was found on PlayersTimeCounter
 This message has been deprecated and will be removed in a later version of Unity.
@@ -998,1225 +742,9 @@ Add a delegate to SceneManager.sceneLoaded instead to get notifications after sc
 Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 115.8 MB.
-System memory in use after: 115.9 MB.
+System memory in use before: 118.4 MB.
+System memory in use after: 118.5 MB.
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2880.
-Total: 2.543200 ms (FindLiveObjects: 0.321700 ms CreateObjectMapping: 0.060500 ms MarkObjects: 2.007600 ms  DeleteObjects: 0.152400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001054 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.736 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 115.9 MB.
-System memory in use after: 116.0 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2884.
-Total: 2.988500 ms (FindLiveObjects: 0.427000 ms CreateObjectMapping: 0.071600 ms MarkObjects: 2.321900 ms  DeleteObjects: 0.167000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001415 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.746 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 116.0 MB.
-System memory in use after: 116.0 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2888.
-Total: 2.538800 ms (FindLiveObjects: 0.259000 ms CreateObjectMapping: 0.059700 ms MarkObjects: 2.063900 ms  DeleteObjects: 0.155300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 209.931045 seconds.
-  path: Assets/Scenes/mainMenu.unity
-  artifactKey: Guid(3fd4def1d4daf1240bbf361e24e7df71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/mainMenu.unity using Guid(3fd4def1d4daf1240bbf361e24e7df71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e4f81a2db70678dfe5bb35bb307df8') in 0.005783 seconds
-  Import took 0.009458 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001038 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.754 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 116.0 MB.
-System memory in use after: 116.1 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2892.
-Total: 3.723200 ms (FindLiveObjects: 0.470200 ms CreateObjectMapping: 0.082200 ms MarkObjects: 2.972100 ms  DeleteObjects: 0.197000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001058 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.757 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 115.9 MB.
-System memory in use after: 116.0 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2896.
-Total: 2.472800 ms (FindLiveObjects: 0.273200 ms CreateObjectMapping: 0.060100 ms MarkObjects: 1.999400 ms  DeleteObjects: 0.139300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 511.794538 seconds.
-  path: Assets/Scenes/EndScene.unity
-  artifactKey: Guid(fd033d51c7aae2949a99883c9b1146a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/EndScene.unity using Guid(fd033d51c7aae2949a99883c9b1146a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f6a101f93db761bd5b84142c0cc3909') in 0.008460 seconds
-  Import took 0.012405 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001002 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.774 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 115.9 MB.
-System memory in use after: 116.0 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2900.
-Total: 2.412500 ms (FindLiveObjects: 0.261700 ms CreateObjectMapping: 0.059600 ms MarkObjects: 1.954200 ms  DeleteObjects: 0.136000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000969 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.783 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 115.9 MB.
-System memory in use after: 116.0 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2904.
-Total: 2.978600 ms (FindLiveObjects: 0.411500 ms CreateObjectMapping: 0.064900 ms MarkObjects: 2.337900 ms  DeleteObjects: 0.163000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001430 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.884 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 116.0 MB.
-System memory in use after: 116.1 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2908.
-Total: 2.559700 ms (FindLiveObjects: 0.323100 ms CreateObjectMapping: 0.064300 ms MarkObjects: 2.018600 ms  DeleteObjects: 0.152800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001137 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.856 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 116.0 MB.
-System memory in use after: 116.1 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2912.
-Total: 2.823500 ms (FindLiveObjects: 0.385500 ms CreateObjectMapping: 0.065900 ms MarkObjects: 2.207700 ms  DeleteObjects: 0.163100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 587.857459 seconds.
-  path: Assets/Sounds/02-Track02.wav
-  artifactKey: Guid(891836e679f5e9e4e8a5d4bf0d64124c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/02-Track02.wav using Guid(891836e679f5e9e4e8a5d4bf0d64124c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '982450904d56c004aab93f918ec68e29') in 0.067656 seconds
-  Import took 0.071925 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001012 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.754 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 118.5 MB.
-System memory in use after: 118.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2925.
-Total: 2.432400 ms (FindLiveObjects: 0.266100 ms CreateObjectMapping: 0.059000 ms MarkObjects: 1.974100 ms  DeleteObjects: 0.132100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000934 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.756 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 118.5 MB.
-System memory in use after: 118.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2929.
-Total: 2.677500 ms (FindLiveObjects: 0.332000 ms CreateObjectMapping: 0.067000 ms MarkObjects: 2.130100 ms  DeleteObjects: 0.146900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000905 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.750 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 118.5 MB.
-System memory in use after: 118.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2933.
-Total: 2.399000 ms (FindLiveObjects: 0.251200 ms CreateObjectMapping: 0.058800 ms MarkObjects: 1.952800 ms  DeleteObjects: 0.135500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000981 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.754 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 118.5 MB.
-System memory in use after: 118.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2937.
-Total: 2.864000 ms (FindLiveObjects: 0.324300 ms CreateObjectMapping: 0.063000 ms MarkObjects: 2.306700 ms  DeleteObjects: 0.168900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001232 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.905 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 118.5 MB.
-System memory in use after: 118.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2941.
-Total: 2.703400 ms (FindLiveObjects: 0.305000 ms CreateObjectMapping: 0.059900 ms MarkObjects: 2.191000 ms  DeleteObjects: 0.146900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 597.582038 seconds.
-  path: Assets/Prefabs/SpawnEnemyPareant.prefab
-  artifactKey: Guid(7ff75ba0496cde94f82b2b82b062ef6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SpawnEnemyPareant.prefab using Guid(7ff75ba0496cde94f82b2b82b062ef6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86871f828f0203851cd7586b119d2a5b') in 0.054771 seconds
-  Import took 0.058870 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Prefabs/EnemySpinner.prefab
-  artifactKey: Guid(f8bb5fe1823db2741852f5551af7868b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/EnemySpinner.prefab using Guid(f8bb5fe1823db2741852f5551af7868b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ad8d701ba151156b1fc794b72688d4') in 0.017721 seconds
-  Import took 0.021611 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 254.908003 seconds.
-  path: Assets/Scenes/LevelBoneZone.unity
-  artifactKey: Guid(8ff1948f8cc0e8849b54c5d5f67d6182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LevelBoneZone.unity using Guid(8ff1948f8cc0e8849b54c5d5f67d6182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f0efd7d98eb79b33dbe17703ae147bd') in 0.008016 seconds
-  Import took 0.011977 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 72.221868 seconds.
-  path: Assets/Sounds/HAHAHAHA.wav
-  artifactKey: Guid(9f01ad2f8c157db44b2e88e1d368dd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/HAHAHAHA.wav using Guid(9f01ad2f8c157db44b2e88e1d368dd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1973d9d7fcf56da24e09d134ee6dbf') in 0.019915 seconds
-  Import took 0.024043 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Sounds/Laughing.wav
-  artifactKey: Guid(2270d702fff114046acd63398c5a5514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Laughing.wav using Guid(2270d702fff114046acd63398c5a5514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d333978fd79fcdc9ed4737c1a8c3ddd') in 0.016943 seconds
-  Import took 0.020970 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000971 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.762 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 118.5 MB.
-System memory in use after: 118.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2946.
-Total: 2.474600 ms (FindLiveObjects: 0.280400 ms CreateObjectMapping: 0.066900 ms MarkObjects: 1.984500 ms  DeleteObjects: 0.141600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001105 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.743 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 118.6 MB.
-System memory in use after: 118.7 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2950.
-Total: 2.564600 ms (FindLiveObjects: 0.310800 ms CreateObjectMapping: 0.062200 ms MarkObjects: 2.032300 ms  DeleteObjects: 0.158400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000999 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.754 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 118.6 MB.
-System memory in use after: 118.7 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2954.
-Total: 2.434100 ms (FindLiveObjects: 0.270500 ms CreateObjectMapping: 0.059800 ms MarkObjects: 1.965600 ms  DeleteObjects: 0.137400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001463 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.761 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 118.7 MB.
-System memory in use after: 118.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2958.
-Total: 2.682500 ms (FindLiveObjects: 0.309300 ms CreateObjectMapping: 0.063000 ms MarkObjects: 2.163300 ms  DeleteObjects: 0.145700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001089 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.774 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 118.7 MB.
-System memory in use after: 118.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2962.
-Total: 2.755100 ms (FindLiveObjects: 0.410000 ms CreateObjectMapping: 0.079200 ms MarkObjects: 2.108400 ms  DeleteObjects: 0.156600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 233.561052 seconds.
-  path: Assets/Scenes/mainMenu.unity
-  artifactKey: Guid(3fd4def1d4daf1240bbf361e24e7df71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/mainMenu.unity using Guid(3fd4def1d4daf1240bbf361e24e7df71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0e1a14252f772dc5266fefc3a57d32') in 0.012789 seconds
-  Import took 0.016709 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000884 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.760 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 118.6 MB.
-System memory in use after: 118.7 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2966.
-Total: 2.540800 ms (FindLiveObjects: 0.282700 ms CreateObjectMapping: 0.059000 ms MarkObjects: 2.017900 ms  DeleteObjects: 0.180200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000938 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.738 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 118.7 MB.
-System memory in use after: 118.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2970.
-Total: 2.505700 ms (FindLiveObjects: 0.262700 ms CreateObjectMapping: 0.060200 ms MarkObjects: 2.034100 ms  DeleteObjects: 0.147600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 138.618219 seconds.
-  path: Assets/GlobamaCollider.cs
-  artifactKey: Guid(5e34c370eca521e4880a7f8bb016cf07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GlobamaCollider.cs using Guid(5e34c370eca521e4880a7f8bb016cf07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee79188cbb686caa79cba2bdf1889a96') in 0.015609 seconds
-  Import took 0.019511 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008065 seconds.
-  path: Assets/GlobamaCollider.cs
-  artifactKey: Guid(5e34c370eca521e4880a7f8bb016cf07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GlobamaCollider.cs using Guid(5e34c370eca521e4880a7f8bb016cf07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee79188cbb686caa79cba2bdf1889a96') in 0.002128 seconds
-  Import took 0.004997 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.706269 seconds.
-  path: Assets/pointTowards.cs
-  artifactKey: Guid(691e3627968ba0a4c90d8f15ff640d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pointTowards.cs using Guid(691e3627968ba0a4c90d8f15ff640d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7713dcfc40f0a5940e7fd59ec476f2') in 0.007934 seconds
-  Import took 0.011757 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000949 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.800 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 118.7 MB.
-System memory in use after: 118.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2974.
-Total: 2.585700 ms (FindLiveObjects: 0.322000 ms CreateObjectMapping: 0.058300 ms MarkObjects: 2.055500 ms  DeleteObjects: 0.148900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 74.947342 seconds.
-  path: Assets/Scenes/LevelBear.unity
-  artifactKey: Guid(49c424124070ac54cb112da442a3ef03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LevelBear.unity using Guid(49c424124070ac54cb112da442a3ef03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f25ae7d44cf364948f73ca8f5b50128') in 0.016410 seconds
-  Import took 0.020414 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000991 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.778 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 118.7 MB.
-System memory in use after: 118.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2978.
-Total: 2.582700 ms (FindLiveObjects: 0.342500 ms CreateObjectMapping: 0.064200 ms MarkObjects: 2.019500 ms  DeleteObjects: 0.155300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001087 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.908 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 118.7 MB.
-System memory in use after: 118.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2982.
-Total: 2.773900 ms (FindLiveObjects: 0.405900 ms CreateObjectMapping: 0.067800 ms MarkObjects: 2.141400 ms  DeleteObjects: 0.158000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 192.351443 seconds.
-  path: Assets/Scenes/LevelGilgamesh.unity
-  artifactKey: Guid(c9aa2a021293bea4ca166476ee9c6ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LevelGilgamesh.unity using Guid(c9aa2a021293bea4ca166476ee9c6ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68de42363eac8effae90b9c5b5058c3e') in 0.005940 seconds
-  Import took 0.009737 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.185688 seconds.
-  path: Assets/Scenes/LevelFinish.unity
-  artifactKey: Guid(bd3637a61ec53834daa542b46d218c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LevelFinish.unity using Guid(bd3637a61ec53834daa542b46d218c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9eaa9eaeb267139af8d3db6b402076d') in 0.003132 seconds
-  Import took 0.006896 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001077 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.742 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 118.7 MB.
-System memory in use after: 118.7 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2986.
-Total: 2.502700 ms (FindLiveObjects: 0.289400 ms CreateObjectMapping: 0.067600 ms MarkObjects: 2.006800 ms  DeleteObjects: 0.137900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001123 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.762 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 118.8 MB.
-System memory in use after: 118.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2990.
-Total: 2.506300 ms (FindLiveObjects: 0.281700 ms CreateObjectMapping: 0.060500 ms MarkObjects: 2.024400 ms  DeleteObjects: 0.138900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000933 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.765 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 118.8 MB.
-System memory in use after: 118.9 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2994.
-Total: 2.553500 ms (FindLiveObjects: 0.286500 ms CreateObjectMapping: 0.062500 ms MarkObjects: 2.039500 ms  DeleteObjects: 0.163700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001166 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.753 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 118.8 MB.
-System memory in use after: 118.9 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2998.
-Total: 2.818600 ms (FindLiveObjects: 0.296300 ms CreateObjectMapping: 0.062900 ms MarkObjects: 2.292600 ms  DeleteObjects: 0.165800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000909 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.758 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 118.8 MB.
-System memory in use after: 118.9 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3002.
-Total: 2.576300 ms (FindLiveObjects: 0.306500 ms CreateObjectMapping: 0.071500 ms MarkObjects: 2.044100 ms  DeleteObjects: 0.153100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001169 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.765 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 118.7 MB.
-System memory in use after: 118.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3006.
-Total: 3.097700 ms (FindLiveObjects: 0.509500 ms CreateObjectMapping: 0.082400 ms MarkObjects: 2.329800 ms  DeleteObjects: 0.175100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 216.871764 seconds.
-  path: Assets/Scenes/LevelSpace.unity
-  artifactKey: Guid(dc83833e9a4529c4dab2db56c839e469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LevelSpace.unity using Guid(dc83833e9a4529c4dab2db56c839e469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9867e683fd589ec82c0f820a76342e5') in 0.011524 seconds
-  Import took 0.015695 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.947014 seconds.
-  path: Assets/Scenes/LevelBoneZone.unity
-  artifactKey: Guid(8ff1948f8cc0e8849b54c5d5f67d6182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LevelBoneZone.unity using Guid(8ff1948f8cc0e8849b54c5d5f67d6182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d379478b2899bad6b3f7465423aa998') in 0.002505 seconds
-  Import took 0.006179 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001032 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.762 seconds
-Platform modules already initialized, skipping
-OnLevelWasLoaded was found on PlayersTimeCounter
-This message has been deprecated and will be removed in a later version of Unity.
-Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
-
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 118.7 MB.
-System memory in use after: 118.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3010.
-Total: 2.561100 ms (FindLiveObjects: 0.308700 ms CreateObjectMapping: 0.065300 ms MarkObjects: 2.038700 ms  DeleteObjects: 0.147400 ms)
+Total: 2.616600 ms (FindLiveObjects: 0.266200 ms CreateObjectMapping: 0.066900 ms MarkObjects: 2.137600 ms  DeleteObjects: 0.144900 ms)
 

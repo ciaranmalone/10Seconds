@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4055861, g: 0.5202648, b: 0.5109614, a: 1}
+  m_IndirectSpecularColor: {r: 0.5004743, g: 0.6033647, b: 0.53738326, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -9162,7 +9162,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Video Game
+  m_text: Bottom-shelf Shooter
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 24fc56a58cde7b644b14b1d6165db7c3, type: 2}
   m_sharedMaterial: {fileID: -3828045435248735030, guid: 24fc56a58cde7b644b14b1d6165db7c3, type: 2}
@@ -10398,7 +10398,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playersTimeCounter: {fileID: 35074826}
   start: 32
+  hardMode: 104
   firstScene: LevelSpace
+  hardModeScene: mainMenuHARD
 --- !u!4 &2115189509
 Transform:
   m_ObjectHideFlags: 0
