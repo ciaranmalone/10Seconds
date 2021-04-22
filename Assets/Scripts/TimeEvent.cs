@@ -5,9 +5,11 @@ using UnityEngine;
 public class TimeEvent : MonoBehaviour
 {
     [SerializeField] private float time = 6f;
+    private AudioSource audioSource;
     private Animator animator;
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
         StartCoroutine(getHit());
     }
@@ -15,5 +17,6 @@ public class TimeEvent : MonoBehaviour
     {
         yield return new WaitForSeconds(time);
         animator.Play("CamerafallAnim");
+        audioSource.Play();
     }
 }
