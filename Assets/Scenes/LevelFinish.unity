@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3782131, g: 0.3704114, b: 0.4682384, a: 1}
+  m_IndirectSpecularColor: {r: 0.67098874, g: 0.66311264, b: 0.87544364, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -606,6 +606,7 @@ GameObject:
   - component: {fileID: 212923925}
   - component: {fileID: 212923927}
   - component: {fileID: 212923923}
+  - component: {fileID: 212923922}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -629,6 +630,20 @@ Transform:
   m_Father: {fileID: 685902068}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &212923922
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212923920}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.7
+  m_Height: 0
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &212923923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2170,7 +2185,7 @@ GameObject:
   - component: {fileID: 916419426}
   - component: {fileID: 916419427}
   - component: {fileID: 916419425}
-  - component: {fileID: 916419429}
+  - component: {fileID: 916419428}
   m_Layer: 6
   m_Name: goku
   m_TagString: Untagged
@@ -2187,7 +2202,7 @@ Transform:
   m_GameObject: {fileID: 916419423}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5000001, y: 0.50000006, z: 0.5000001}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 212923921}
   m_RootOrder: 0
@@ -2250,7 +2265,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: c0de49e91e6457046b001a490f2b3081, type: 3}
+  m_Sprite: {fileID: 397928890799298981, guid: 383e5f59cc4224d4d8b34dca46241c67, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2273,28 +2288,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4a654b07b29c99468823cf050543514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spin: {x: 0, y: 2, z: 0}
---- !u!136 &916419429
-CapsuleCollider:
+  spin: {x: 0, y: 1000, z: 0}
+--- !u!95 &916419428
+Animator:
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 916419423}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 1.3
-  m_Height: 0
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5dc019700965b0e42a0c646fd57bf99c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!43 &948271814
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh19022
+  m_Name: pb_Mesh37202
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2

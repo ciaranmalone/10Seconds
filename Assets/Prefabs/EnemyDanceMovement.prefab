@@ -224,6 +224,7 @@ MonoBehaviour:
     rgba: 4278248447
   deleteBullet: 0
   explosion: {fileID: 1689494732473560082, guid: 254d9f5e3b8fafd4295f05f6d95d5a16, type: 3}
+  painSound: {fileID: 0}
 --- !u!54 &-3311232793942413306
 Rigidbody:
   m_ObjectHideFlags: 0

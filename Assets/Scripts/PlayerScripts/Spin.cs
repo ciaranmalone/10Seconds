@@ -7,7 +7,7 @@ public class Spin : MonoBehaviour
     [SerializeField] private Vector3 spin = new Vector3(0, 0, 5);
     void Update()
     {
-        transform.Rotate(spin);
+        transform.Rotate(spin *Time.deltaTime);
 
     }
 }

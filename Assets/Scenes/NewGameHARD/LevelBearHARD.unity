@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.4970185, g: 0.551262, b: 0.6886792, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: e8843bf5f8e307a46881df344cd7d8ba, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 8c1a6bb254712f241a670544ee37e53e, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.19245136, g: 0.23508498, b: 0.30121204, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -694,7 +694,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 039845bb48d5b6f4f8ae53a28ffeb60b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obama: {fileID: 2100000, guid: e8843bf5f8e307a46881df344cd7d8ba, type: 2}
+  obama: {fileID: 2100000, guid: 8c1a6bb254712f241a670544ee37e53e, type: 2}
 --- !u!4 &186985392
 Transform:
   m_ObjectHideFlags: 0
@@ -2651,7 +2651,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeText: {fileID: 1838082115}
-  nextScene: LevelGilgamesh
+  nextScene: LevelGilgameshHARD
   PlayerInstructions: {fileID: 1399910195}
   LoadNextScene: 1
 --- !u!4 &534683910
@@ -4076,7 +4076,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1226ad87edfc26f4eb355025f32ddeec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enemy: {fileID: 3180537861518689570, guid: f8bb5fe1823db2741852f5551af7868b, type: 3}
+  Enemy: {fileID: 3180537861518689570, guid: 49aa5c4f6532e1a4eaac652ba8a5f4d5, type: 3}
   parent: {fileID: 685902068}
   spawnTime: 1
   startPos: 0
@@ -4112,7 +4112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4a654b07b29c99468823cf050543514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spin: {x: 0, y: 0, z: 0.5}
+  spin: {x: 0, y: 0, z: 400}
 --- !u!1 &795806334
 GameObject:
   m_ObjectHideFlags: 0
@@ -5021,7 +5021,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4a654b07b29c99468823cf050543514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spin: {x: 0, y: 2, z: 0}
+  spin: {x: 0, y: 1000, z: 0}
 --- !u!1 &939767327
 GameObject:
   m_ObjectHideFlags: 0
@@ -7403,7 +7403,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Bears
+  m_text: 'unbearable
 
 '
   m_isRightToLeft: 0
@@ -7414,8 +7414,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4291611852
-  m_fontColor: {r: 0.8018868, g: 0.8018868, b: 0.8018868, a: 1}
+    rgba: 4278199551
+  m_fontColor: {r: 1, g: 0.14288326, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -8266,8 +8266,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1656285733}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 22.539486, y: 9.786753, z: 469.90256}
-  m_LocalScale: {x: 200, y: 200, z: 200}
+  m_LocalPosition: {x: 22.539486, y: -114.64, z: 469.90256}
+  m_LocalScale: {x: 200, y: 47.13, z: 200}
   m_Children:
   - {fileID: 1880248827}
   - {fileID: 1209778558}
@@ -9149,7 +9149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b1fff542ff9b0b4eb69fe41ed570886, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeDelay: 2
+  timeDelay: 0
   hiddenObject: {fileID: 769233837}
 --- !u!1 &1979405918
 GameObject:

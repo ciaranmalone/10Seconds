@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.4970185, g: 0.551262, b: 0.6886792, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 69ff246146fdeae4888b22ea43b7292d, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: d214198059aef354ca0515272c6258c4, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3782131, g: 0.3704114, b: 0.4682384, a: 1}
+  m_IndirectSpecularColor: {r: 0.677934, g: 0.4511459, b: 0.47990656, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -670,7 +670,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d98bdcfb5fa1b349b4c76b938196cf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLevel: LevelBoneZone
+  nextLevel: LevelBoneZoneHARD
 --- !u!114 &212923927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1845,7 +1845,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 823307106}
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.00000052154047}
-  m_LocalPosition: {x: 0, y: 0.0049439073, z: 0.5200028}
+  m_LocalPosition: {x: 0, y: 0.01, z: -0.009}
   m_LocalScale: {x: 1, y: 1, z: 2}
   m_Children: []
   m_Father: {fileID: 874670346}
@@ -1891,7 +1891,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9ccadac0f5b93b24b84a5041b1c25d5a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 014beb547712c8d49b272f7a86a044a8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1916,7 +1916,7 @@ GameObject:
   - component: {fileID: 874670348}
   - component: {fileID: 874670349}
   m_Layer: 8
-  m_Name: the finnish flag
+  m_Name: the GOLS flag
   m_TagString: Finish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1962,7 +1962,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9ccadac0f5b93b24b84a5041b1c25d5a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 014beb547712c8d49b272f7a86a044a8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2014,7 +2014,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4a654b07b29c99468823cf050543514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spin: {x: 0, y: 0.2, z: 0}
+  spin: {x: 0, y: 1000, z: 0}
 --- !u!95 &874670349
 Animator:
   serializedVersion: 3
@@ -2273,7 +2273,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4a654b07b29c99468823cf050543514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spin: {x: 0, y: 2, z: 0}
+  spin: {x: 0, y: 1000, z: 0}
 --- !u!136 &916419429
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2294,7 +2294,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh19022
+  m_Name: pb_Mesh269164
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3624,7 +3624,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Race to the Finnish
+  m_text: "Race to the G\xF6le"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 24fc56a58cde7b644b14b1d6165db7c3, type: 2}
   m_sharedMaterial: {fileID: -3828045435248735030, guid: 24fc56a58cde7b644b14b1d6165db7c3, type: 2}
@@ -3633,8 +3633,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190335
+  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3999,8 +3999,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1622901120}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.00003054738, z: 0.26599735}
-  m_LocalScale: {x: 12.72828, y: 8.487098, z: 0.5004644}
+  m_LocalPosition: {x: 0, y: 0, z: 0.078}
+  m_LocalScale: {x: 3.998462, y: 2.6661367, z: 0.15721588}
   m_Children: []
   m_Father: {fileID: 874670346}
   m_RootOrder: 0
@@ -92943,8 +92943,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e0157902cbba8343b7a87c20ce4df1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obama: {fileID: 2100000, guid: 69ff246146fdeae4888b22ea43b7292d, type: 2}
-  SpinSpeed: 0.01
+  obama: {fileID: 2100000, guid: d214198059aef354ca0515272c6258c4, type: 2}
+  SpinSpeed: 0.001
 --- !u!1 &1838082112
 GameObject:
   m_ObjectHideFlags: 0

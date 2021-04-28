@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.5004743, g: 0.6033647, b: 0.53738326, a: 1}
+  m_IndirectSpecularColor: {r: 0.4055861, g: 0.5202648, b: 0.5109614, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -472,6 +472,7 @@ MonoBehaviour:
   Timer: {fileID: 111229689}
   timelapsed: 0
   endSceneName: EndScene
+  otherMainMenu: mainMenuHARD
 --- !u!82 &35074827
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3073,7 +3074,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &544911466
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4482,7 +4483,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &699735655
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5622,7 +5623,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4a654b07b29c99468823cf050543514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spin: {x: 0, y: 2, z: 0}
+  spin: {x: 0, y: 1000, z: 0}
 --- !u!1 &939767327
 GameObject:
   m_ObjectHideFlags: 0
@@ -9063,7 +9064,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -165.82297}
+  m_AnchoredPosition: {x: 0, y: -543.82294}
   m_SizeDelta: {x: 1176.9, y: 32.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1812041429

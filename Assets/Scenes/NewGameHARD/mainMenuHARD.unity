@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.38582048, g: 0.4518137, b: 0.5360081, a: 1}
+  m_IndirectSpecularColor: {r: 0.19245136, g: 0.23508498, b: 0.30121204, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -367,6 +367,8 @@ GameObject:
   - component: {fileID: 35074822}
   - component: {fileID: 35074826}
   - component: {fileID: 35074827}
+  - component: {fileID: 35074829}
+  - component: {fileID: 35074828}
   m_Layer: 5
   m_Name: PlayerTimerCanvas
   m_TagString: Untagged
@@ -471,7 +473,8 @@ MonoBehaviour:
   timeText: {fileID: 111229691}
   Timer: {fileID: 111229689}
   timelapsed: 0
-  endSceneName: EndScene
+  endSceneName: EndSceneHARD
+  otherMainMenu: mainMenu
 --- !u!82 &35074827
 AudioSource:
   m_ObjectHideFlags: 0
@@ -558,7 +561,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 1.036
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -568,6 +571,38 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!170 &35074828
+AudioDistortionFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 35074821}
+  m_Enabled: 1
+  m_DistortionLevel: 0.14
+--- !u!164 &35074829
+AudioReverbFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 35074821}
+  m_Enabled: 1
+  m_DryLevel: 0
+  m_Room: 0
+  m_RoomHF: 0
+  m_DecayTime: 1
+  m_DecayHFRatio: 0.5
+  m_ReflectionsLevel: -10000
+  m_ReverbLevel: 0
+  m_ReverbDelay: 0.04
+  m_Diffusion: 100
+  m_Density: 100
+  m_HFReference: 5000
+  m_RoomLF: 0
+  m_LFReference: 250
+  m_ReflectionsDelay: 0
+  m_ReverbPreset: 27
 --- !u!1 &83306311
 GameObject:
   m_ObjectHideFlags: 0
@@ -859,15 +894,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: 00:00
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 399ab5a208089e043b18ce05dd07d2da, type: 2}
-  m_sharedMaterial: {fileID: -1687158329081336743, guid: 399ab5a208089e043b18ce05dd07d2da, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 24fc56a58cde7b644b14b1d6165db7c3, type: 2}
+  m_sharedMaterial: {fileID: -3828045435248735030, guid: 24fc56a58cde7b644b14b1d6165db7c3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190335
+  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -5385,6 +5420,7 @@ GameObject:
   - component: {fileID: 916419426}
   - component: {fileID: 916419427}
   - component: {fileID: 916419425}
+  - component: {fileID: 916419428}
   m_Layer: 6
   m_Name: goku
   m_TagString: Untagged
@@ -5401,7 +5437,7 @@ Transform:
   m_GameObject: {fileID: 916419423}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5000001, y: 0.50000006, z: 0.5000001}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 212923921}
   m_RootOrder: 0
@@ -5464,7 +5500,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: c0de49e91e6457046b001a490f2b3081, type: 3}
+  m_Sprite: {fileID: 8346123268833056051, guid: 383e5f59cc4224d4d8b34dca46241c67, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5487,7 +5523,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4a654b07b29c99468823cf050543514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spin: {x: 0, y: 2, z: 0}
+  spin: {x: 0, y: 1000, z: 0}
+--- !u!95 &916419428
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 916419423}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5dc019700965b0e42a0c646fd57bf99c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &939767327
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,6 +11,7 @@ public class PlayersTimeCounter : MonoBehaviour
     [SerializeField] private GameObject Timer;
     [SerializeField] private float timelapsed;
     [SerializeField] private string endSceneName;
+    [SerializeField] private string otherMainMenu;
     private AudioSource audioSource;
     private Animator anim;
     private bool gameWon = false;
@@ -71,6 +72,10 @@ public class PlayersTimeCounter : MonoBehaviour
             AnimationPlay();
             audioSource.Stop();
             gameWon = true;
+        }
+        if(SceneManager.GetActiveScene().name == otherMainMenu)
+        {
+            Destroy(this.gameObject);
         }
 
     }
